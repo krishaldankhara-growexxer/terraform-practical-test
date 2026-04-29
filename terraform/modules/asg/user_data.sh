@@ -3,9 +3,9 @@ set -e
 exec > /var/log/user-data.log 2>&1
 
 yum update -y
-yum install -y nginx git unzip ruby wget
+amazon-linux-extras install nginx1 -y
+yum install -y git unzip ruby wget
 
-# CodeDeploy agent
 cd /home/ec2-user
 wget https://aws-codedeploy-ap-south-1.s3.ap-south-1.amazonaws.com/latest/install
 chmod +x ./install
@@ -13,6 +13,7 @@ chmod +x ./install
 systemctl enable codedeploy-agent || true
 systemctl start codedeploy-agent  || true
 
+mkdir -p /usr/share/nginx/html
 cat > /usr/share/nginx/html/index.html <<'HTML'
 <!DOCTYPE html>
 <html>
@@ -27,4 +28,4 @@ cat > /usr/share/nginx/html/index.html <<'HTML'
 HTML
 
 systemctl enable nginx
-systemctl start  nginx
+systemctl start nginx
