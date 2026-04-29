@@ -1,0 +1,2907 @@
+module.lambda.data.archive_file.scheduler: Reading...
+module.lambda.data.archive_file.scheduler: Read complete after 0s [id=cad1fbd99d86b68fb1fa9e40d0414737cec7bca0]
+data.aws_caller_identity.current: Reading...
+module.asg.data.aws_ami.amazon_linux_2: Reading...
+module.ec2.data.aws_ami.amazon_linux_2: Reading...
+module.cicd.aws_codedeploy_app.this: Refreshing state... [id=2cdacf50-dd29-4208-ade7-3a23ad1eee82:tf-test-app]
+module.cicd.aws_codestarconnections_connection.github: Refreshing state... [id=arn:aws:codestar-connections:ap-south-1:118402680584:connection/d8da454a-692a-4487-b94f-f4099623daeb]
+module.lambda.aws_cloudwatch_event_rule.stop: Refreshing state... [id=tf-test-stop-rule]
+module.vpc.aws_vpc.this: Refreshing state... [id=vpc-0defbe83925860ca9]
+module.lambda.aws_iam_role.lambda: Refreshing state... [id=tf-test-scheduler-role]
+module.cicd.aws_iam_role.codepipeline: Refreshing state... [id=tf-test-codepipeline-role]
+module.lambda.aws_cloudwatch_event_rule.start: Refreshing state... [id=tf-test-start-rule]
+data.aws_caller_identity.current: Read complete after 0s [id=118402680584]
+module.ec2.aws_iam_role.ec2: Refreshing state... [id=tf-test-ec2-role]
+module.cicd.aws_iam_role.codedeploy: Refreshing state... [id=tf-test-codedeploy-role]
+module.cicd.aws_iam_role.codebuild: Refreshing state... [id=tf-test-codebuild-role]
+module.cicd.aws_s3_bucket.artifacts: Refreshing state... [id=tf-test-pipeline-artifacts-118402680584]
+module.ec2.data.aws_ami.amazon_linux_2: Read complete after 0s [id=ami-09d623d7034669ca5]
+module.asg.data.aws_ami.amazon_linux_2: Read complete after 0s [id=ami-09d623d7034669ca5]
+module.vpc.aws_internet_gateway.this: Refreshing state... [id=igw-093f7caf968ab9717]
+module.vpc.aws_subnet.public[0]: Refreshing state... [id=subnet-00991ed3b9c52c581]
+module.vpc.aws_subnet.public[1]: Refreshing state... [id=subnet-03f4d3c03e40e5044]
+module.vpc.aws_subnet.private[0]: Refreshing state... [id=subnet-049d4ce74622a7bae]
+module.vpc.aws_subnet.private[1]: Refreshing state... [id=subnet-088fd295fa7c7d6d3]
+module.alb.aws_lb_target_group.this: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-south-1:118402680584:targetgroup/tf-test-tg/5007a40e5153e5c7]
+module.alb.aws_security_group.alb: Refreshing state... [id=sg-05a193c2344673582]
+module.vpc.aws_route_table.public: Refreshing state... [id=rtb-0654706d28d4bea95]
+module.vpc.aws_eip.nat: Refreshing state... [id=eipalloc-0a34d995f793332f8]
+module.cicd.aws_s3_bucket_versioning.artifacts: Refreshing state... [id=tf-test-pipeline-artifacts-118402680584]
+module.cicd.aws_s3_bucket_public_access_block.artifacts: Refreshing state... [id=tf-test-pipeline-artifacts-118402680584]
+module.cicd.aws_s3_bucket_server_side_encryption_configuration.artifacts: Refreshing state... [id=tf-test-pipeline-artifacts-118402680584]
+module.vpc.aws_route_table_association.public[1]: Refreshing state... [id=rtbassoc-008379c972b18a0db]
+module.vpc.aws_route_table_association.public[0]: Refreshing state... [id=rtbassoc-008577ba9e6209631]
+module.alb.aws_lb.this: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-south-1:118402680584:loadbalancer/app/tf-test-alb/71c91f3e74837784]
+module.rds.aws_db_subnet_group.this: Refreshing state... [id=tf-test-db-subnet-group]
+module.ec2.aws_security_group.ec2: Refreshing state... [id=sg-02745a6c8dba62de4]
+module.vpc.aws_nat_gateway.this: Refreshing state... [id=nat-042ffacc77700f5aa]
+module.rds.aws_security_group.rds: Refreshing state... [id=sg-02756cb28ead69a46]
+module.vpc.aws_route_table.private: Refreshing state... [id=rtb-04a2521c85c50cffe]
+module.alb.aws_lb_listener.http: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-south-1:118402680584:listener/app/tf-test-alb/71c91f3e74837784/74deddeb193cfb79]
+module.vpc.aws_route_table_association.private[0]: Refreshing state... [id=rtbassoc-07e38cd40b1850fe4]
+module.vpc.aws_route_table_association.private[1]: Refreshing state... [id=rtbassoc-01f6e3ebb1ab1d4c1]
+module.rds.aws_db_instance.this: Refreshing state... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY]
+module.ec2.aws_iam_role_policy_attachment.ec2_codedeploy: Refreshing state... [id=tf-test-ec2-role-20260429073621978600000001]
+module.ec2.aws_iam_role_policy_attachment.ec2_ssm: Refreshing state... [id=tf-test-ec2-role-20260429073622036100000003]
+module.ec2.aws_iam_instance_profile.ec2: Refreshing state... [id=tf-test-ec2-profile]
+module.ec2.aws_iam_role_policy_attachment.ec2_cloudwatch: Refreshing state... [id=tf-test-ec2-role-20260429073621979000000002]
+module.cicd.aws_iam_role_policy_attachment.codedeploy: Refreshing state... [id=tf-test-codedeploy-role-20260429073622241100000004]
+module.cicd.aws_codedeploy_deployment_group.this: Refreshing state... [id=29372d08-93b4-4263-aa6f-60f4832ed056]
+module.lambda.aws_iam_role_policy.lambda: Refreshing state... [id=tf-test-scheduler-role:tf-test-scheduler-policy]
+module.lambda.aws_lambda_function.start: Refreshing state... [id=tf-test-scheduler-start]
+module.lambda.aws_lambda_function.stop: Refreshing state... [id=tf-test-scheduler-stop]
+module.lambda.aws_lambda_permission.stop: Refreshing state... [id=AllowEventBridgeStop]
+module.lambda.aws_cloudwatch_log_group.stop: Refreshing state... [id=/aws/lambda/tf-test-scheduler-stop]
+module.lambda.aws_cloudwatch_event_target.stop: Refreshing state... [id=tf-test-stop-rule-StopScheduler]
+module.lambda.aws_cloudwatch_log_group.start: Refreshing state... [id=/aws/lambda/tf-test-scheduler-start]
+module.lambda.aws_lambda_permission.start: Refreshing state... [id=AllowEventBridgeStart]
+module.lambda.aws_cloudwatch_event_target.start: Refreshing state... [id=tf-test-start-rule-StartScheduler]
+module.cicd.aws_iam_role_policy.codebuild: Refreshing state... [id=tf-test-codebuild-role:tf-test-codebuild-policy]
+module.cicd.aws_codebuild_project.this: Refreshing state... [id=arn:aws:codebuild:ap-south-1:118402680584:project/tf-test-build]
+module.ec2.aws_instance.this: Refreshing state... [id=i-03364a26213a621d0]
+module.asg.aws_launch_template.this: Refreshing state... [id=lt-09968d66bfd98ebf2]
+module.asg.aws_autoscaling_group.this: Refreshing state... [id=tf-test-asg-]
+module.cicd.aws_iam_role_policy.codepipeline: Refreshing state... [id=tf-test-codepipeline-role:tf-test-codepipeline-policy]
+module.cicd.aws_codepipeline.this: Refreshing state... [id=tf-test-pipeline]
+module.cloudwatch.aws_cloudwatch_dashboard.this: Refreshing state... [id=tf-test-dashboard]
+module.asg.aws_autoscaling_policy.scale_out: Refreshing state... [id=tf-test-scale-out]
+module.asg.aws_autoscaling_policy.scale_in: Refreshing state... [id=tf-test-scale-in]
+module.asg.aws_cloudwatch_metric_alarm.cpu_high: Refreshing state... [id=tf-test-cpu-high]
+module.asg.aws_cloudwatch_metric_alarm.cpu_low: Refreshing state... [id=tf-test-cpu-low]
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  - destroy
+
+Terraform will perform the following actions:
+
+  # module.alb.aws_lb.this will be destroyed
+  - resource "aws_lb" "this" {
+      - arn                                                          = "arn:aws:elasticloadbalancing:ap-south-1:118402680584:loadbalancer/app/tf-test-alb/71c91f3e74837784" -> null
+      - arn_suffix                                                   = "app/tf-test-alb/71c91f3e74837784" -> null
+      - client_keep_alive                                            = 3600 -> null
+      - desync_mitigation_mode                                       = "defensive" -> null
+      - dns_name                                                     = "tf-test-alb-1799861251.ap-south-1.elb.amazonaws.com" -> null
+      - drop_invalid_header_fields                                   = false -> null
+      - enable_cross_zone_load_balancing                             = true -> null
+      - enable_deletion_protection                                   = false -> null
+      - enable_http2                                                 = true -> null
+      - enable_tls_version_and_cipher_suite_headers                  = false -> null
+      - enable_waf_fail_open                                         = false -> null
+      - enable_xff_client_port                                       = false -> null
+      - enable_zonal_shift                                           = false -> null
+      - id                                                           = "arn:aws:elasticloadbalancing:ap-south-1:118402680584:loadbalancer/app/tf-test-alb/71c91f3e74837784" -> null
+      - idle_timeout                                                 = 60 -> null
+      - internal                                                     = false -> null
+      - ip_address_type                                              = "ipv4" -> null
+      - load_balancer_type                                           = "application" -> null
+      - name                                                         = "tf-test-alb" -> null
+      - preserve_host_header                                         = false -> null
+      - security_groups                                              = [
+          - "sg-05a193c2344673582",
+        ] -> null
+      - subnets                                                      = [
+          - "subnet-00991ed3b9c52c581",
+          - "subnet-03f4d3c03e40e5044",
+        ] -> null
+      - tags                                                         = {
+          - "Name"        = "tf-test-alb"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                                                     = {
+          - "Name"        = "tf-test-alb"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - vpc_id                                                       = "vpc-0defbe83925860ca9" -> null
+      - xff_header_processing_mode                                   = "append" -> null
+      - zone_id                                                      = "ZP97RAFLXTNZK" -> null
+        # (3 unchanged attributes hidden)
+
+      - access_logs {
+          - enabled = false -> null
+            # (2 unchanged attributes hidden)
+        }
+
+      - connection_logs {
+          - enabled = false -> null
+            # (2 unchanged attributes hidden)
+        }
+
+      - subnet_mapping {
+          - subnet_id            = "subnet-00991ed3b9c52c581" -> null
+            # (4 unchanged attributes hidden)
+        }
+      - subnet_mapping {
+          - subnet_id            = "subnet-03f4d3c03e40e5044" -> null
+            # (4 unchanged attributes hidden)
+        }
+    }
+
+  # module.alb.aws_lb_listener.http will be destroyed
+  - resource "aws_lb_listener" "http" {
+      - arn                                                                 = "arn:aws:elasticloadbalancing:ap-south-1:118402680584:listener/app/tf-test-alb/71c91f3e74837784/74deddeb193cfb79" -> null
+      - id                                                                  = "arn:aws:elasticloadbalancing:ap-south-1:118402680584:listener/app/tf-test-alb/71c91f3e74837784/74deddeb193cfb79" -> null
+      - load_balancer_arn                                                   = "arn:aws:elasticloadbalancing:ap-south-1:118402680584:loadbalancer/app/tf-test-alb/71c91f3e74837784" -> null
+      - port                                                                = 80 -> null
+      - protocol                                                            = "HTTP" -> null
+      - routing_http_response_server_enabled                                = true -> null
+      - tags                                                                = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                                                            = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+        # (11 unchanged attributes hidden)
+
+      - default_action {
+          - order            = 1 -> null
+          - target_group_arn = "arn:aws:elasticloadbalancing:ap-south-1:118402680584:targetgroup/tf-test-tg/5007a40e5153e5c7" -> null
+          - type             = "forward" -> null
+        }
+    }
+
+  # module.alb.aws_lb_target_group.this will be destroyed
+  - resource "aws_lb_target_group" "this" {
+      - arn                                = "arn:aws:elasticloadbalancing:ap-south-1:118402680584:targetgroup/tf-test-tg/5007a40e5153e5c7" -> null
+      - arn_suffix                         = "targetgroup/tf-test-tg/5007a40e5153e5c7" -> null
+      - deregistration_delay               = "300" -> null
+      - id                                 = "arn:aws:elasticloadbalancing:ap-south-1:118402680584:targetgroup/tf-test-tg/5007a40e5153e5c7" -> null
+      - ip_address_type                    = "ipv4" -> null
+      - lambda_multi_value_headers_enabled = false -> null
+      - load_balancer_arns                 = [
+          - "arn:aws:elasticloadbalancing:ap-south-1:118402680584:loadbalancer/app/tf-test-alb/71c91f3e74837784",
+        ] -> null
+      - load_balancing_algorithm_type      = "round_robin" -> null
+      - load_balancing_anomaly_mitigation  = "off" -> null
+      - load_balancing_cross_zone_enabled  = "use_load_balancer_configuration" -> null
+      - name                               = "tf-test-tg" -> null
+      - port                               = 80 -> null
+      - protocol                           = "HTTP" -> null
+      - protocol_version                   = "HTTP1" -> null
+      - proxy_protocol_v2                  = false -> null
+      - slow_start                         = 0 -> null
+      - tags                               = {
+          - "Name"        = "tf-test-tg"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                           = {
+          - "Name"        = "tf-test-tg"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - target_type                        = "instance" -> null
+      - vpc_id                             = "vpc-0defbe83925860ca9" -> null
+        # (1 unchanged attribute hidden)
+
+      - health_check {
+          - enabled             = true -> null
+          - healthy_threshold   = 2 -> null
+          - interval            = 30 -> null
+          - matcher             = "200" -> null
+          - path                = "/" -> null
+          - port                = "traffic-port" -> null
+          - protocol            = "HTTP" -> null
+          - timeout             = 5 -> null
+          - unhealthy_threshold = 2 -> null
+        }
+
+      - stickiness {
+          - cookie_duration = 86400 -> null
+          - enabled         = false -> null
+          - type            = "lb_cookie" -> null
+            # (1 unchanged attribute hidden)
+        }
+
+      - target_failover {}
+
+      - target_group_health {
+          - dns_failover {
+              - minimum_healthy_targets_count      = "1" -> null
+              - minimum_healthy_targets_percentage = "off" -> null
+            }
+          - unhealthy_state_routing {
+              - minimum_healthy_targets_count      = 1 -> null
+              - minimum_healthy_targets_percentage = "off" -> null
+            }
+        }
+
+      - target_health_state {}
+    }
+
+  # module.alb.aws_security_group.alb will be destroyed
+  - resource "aws_security_group" "alb" {
+      - arn                    = "arn:aws:ec2:ap-south-1:118402680584:security-group/sg-05a193c2344673582" -> null
+      - description            = "Allow HTTP from internet" -> null
+      - egress                 = [
+          - {
+              - cidr_blocks      = [
+                  - "0.0.0.0/0",
+                ]
+              - description      = "All outbound"
+              - from_port        = 0
+              - ipv6_cidr_blocks = []
+              - prefix_list_ids  = []
+              - protocol         = "-1"
+              - security_groups  = []
+              - self             = false
+              - to_port          = 0
+            },
+        ] -> null
+      - id                     = "sg-05a193c2344673582" -> null
+      - ingress                = [
+          - {
+              - cidr_blocks      = [
+                  - "0.0.0.0/0",
+                ]
+              - description      = "HTTP from internet"
+              - from_port        = 80
+              - ipv6_cidr_blocks = []
+              - prefix_list_ids  = []
+              - protocol         = "tcp"
+              - security_groups  = []
+              - self             = false
+              - to_port          = 80
+            },
+        ] -> null
+      - name                   = "tf-test-alb-sg" -> null
+      - owner_id               = "118402680584" -> null
+      - revoke_rules_on_delete = false -> null
+      - tags                   = {
+          - "Name"        = "tf-test-alb-sg"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all               = {
+          - "Name"        = "tf-test-alb-sg"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - vpc_id                 = "vpc-0defbe83925860ca9" -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.asg.aws_autoscaling_group.this will be destroyed
+  - resource "aws_autoscaling_group" "this" {
+      - arn                              = "arn:aws:autoscaling:ap-south-1:118402680584:autoScalingGroup:c73316a3-5b5e-4b5f-a3ba-8ec2c9e708d6:autoScalingGroupName/tf-test-asg-" -> null
+      - availability_zones               = [
+          - "ap-south-1a",
+          - "ap-south-1b",
+        ] -> null
+      - capacity_rebalance               = false -> null
+      - default_cooldown                 = 300 -> null
+      - default_instance_warmup          = 0 -> null
+      - desired_capacity                 = 1 -> null
+      - enabled_metrics                  = [] -> null
+      - force_delete                     = false -> null
+      - force_delete_warm_pool           = false -> null
+      - health_check_grace_period        = 120 -> null
+      - health_check_type                = "ELB" -> null
+      - id                               = "tf-test-asg-" -> null
+      - ignore_failed_scaling_activities = false -> null
+      - load_balancers                   = [] -> null
+      - max_instance_lifetime            = 0 -> null
+      - max_size                         = 2 -> null
+      - metrics_granularity              = "1Minute" -> null
+      - min_size                         = 1 -> null
+      - name                             = "tf-test-asg-" -> null
+      - predicted_capacity               = 0 -> null
+      - protect_from_scale_in            = false -> null
+      - service_linked_role_arn          = "arn:aws:iam::118402680584:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling" -> null
+      - suspended_processes              = [] -> null
+      - target_group_arns                = [
+          - "arn:aws:elasticloadbalancing:ap-south-1:118402680584:targetgroup/tf-test-tg/5007a40e5153e5c7",
+        ] -> null
+      - termination_policies             = [] -> null
+      - vpc_zone_identifier              = [
+          - "subnet-00991ed3b9c52c581",
+          - "subnet-03f4d3c03e40e5044",
+        ] -> null
+      - wait_for_capacity_timeout        = "10m" -> null
+      - warm_pool_size                   = 0 -> null
+        # (5 unchanged attributes hidden)
+
+      - availability_zone_distribution {
+          - capacity_distribution_strategy = "balanced-best-effort" -> null
+        }
+
+      - capacity_reservation_specification {
+          - capacity_reservation_preference = "default" -> null
+        }
+
+      - launch_template {
+          - id      = "lt-09968d66bfd98ebf2" -> null
+          - name    = "tf-test-lt-20260429073634987500000006" -> null
+          - version = "$Latest" -> null
+        }
+
+      - tag {
+          - key                 = "AutoSchedule" -> null
+          - propagate_at_launch = true -> null
+          - value               = "true" -> null
+        }
+      - tag {
+          - key                 = "Name" -> null
+          - propagate_at_launch = true -> null
+          - value               = "tf-test-asg-instance" -> null
+        }
+      - tag {
+          - key                 = "environment" -> null
+          - propagate_at_launch = true -> null
+          - value               = "dev" -> null
+        }
+      - tag {
+          - key                 = "managed_by" -> null
+          - propagate_at_launch = true -> null
+          - value               = "terraform" -> null
+        }
+      - tag {
+          - key                 = "owner" -> null
+          - propagate_at_launch = true -> null
+          - value               = "krishal" -> null
+        }
+      - tag {
+          - key                 = "project" -> null
+          - propagate_at_launch = true -> null
+          - value               = "terraform-practical-test" -> null
+        }
+
+      - traffic_source {
+          - identifier = "arn:aws:elasticloadbalancing:ap-south-1:118402680584:targetgroup/tf-test-tg/5007a40e5153e5c7" -> null
+          - type       = "elbv2" -> null
+        }
+    }
+
+  # module.asg.aws_autoscaling_policy.scale_in will be destroyed
+  - resource "aws_autoscaling_policy" "scale_in" {
+      - adjustment_type           = "ChangeInCapacity" -> null
+      - arn                       = "arn:aws:autoscaling:ap-south-1:118402680584:scalingPolicy:4f53b8fb-c14c-4ff5-b7f8-e8c28f47ace0:autoScalingGroupName/tf-test-asg-:policyName/tf-test-scale-in" -> null
+      - autoscaling_group_name    = "tf-test-asg-" -> null
+      - cooldown                  = 300 -> null
+      - enabled                   = true -> null
+      - estimated_instance_warmup = 0 -> null
+      - id                        = "tf-test-scale-in" -> null
+      - min_adjustment_magnitude  = 0 -> null
+      - name                      = "tf-test-scale-in" -> null
+      - policy_type               = "SimpleScaling" -> null
+      - scaling_adjustment        = -1 -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.asg.aws_autoscaling_policy.scale_out will be destroyed
+  - resource "aws_autoscaling_policy" "scale_out" {
+      - adjustment_type           = "ChangeInCapacity" -> null
+      - arn                       = "arn:aws:autoscaling:ap-south-1:118402680584:scalingPolicy:8ab6b2a5-0572-4446-98ed-44777ffa058f:autoScalingGroupName/tf-test-asg-:policyName/tf-test-scale-out" -> null
+      - autoscaling_group_name    = "tf-test-asg-" -> null
+      - cooldown                  = 300 -> null
+      - enabled                   = true -> null
+      - estimated_instance_warmup = 0 -> null
+      - id                        = "tf-test-scale-out" -> null
+      - min_adjustment_magnitude  = 0 -> null
+      - name                      = "tf-test-scale-out" -> null
+      - policy_type               = "SimpleScaling" -> null
+      - scaling_adjustment        = 1 -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.asg.aws_cloudwatch_metric_alarm.cpu_high will be destroyed
+  - resource "aws_cloudwatch_metric_alarm" "cpu_high" {
+      - actions_enabled                       = true -> null
+      - alarm_actions                         = [
+          - "arn:aws:autoscaling:ap-south-1:118402680584:scalingPolicy:8ab6b2a5-0572-4446-98ed-44777ffa058f:autoScalingGroupName/tf-test-asg-:policyName/tf-test-scale-out",
+        ] -> null
+      - alarm_description                     = "Scale out when CPU > 70%" -> null
+      - alarm_name                            = "tf-test-cpu-high" -> null
+      - arn                                   = "arn:aws:cloudwatch:ap-south-1:118402680584:alarm:tf-test-cpu-high" -> null
+      - comparison_operator                   = "GreaterThanThreshold" -> null
+      - datapoints_to_alarm                   = 0 -> null
+      - dimensions                            = {
+          - "AutoScalingGroupName" = "tf-test-asg-"
+        } -> null
+      - evaluation_periods                    = 2 -> null
+      - id                                    = "tf-test-cpu-high" -> null
+      - insufficient_data_actions             = [] -> null
+      - metric_name                           = "CPUUtilization" -> null
+      - namespace                             = "AWS/EC2" -> null
+      - ok_actions                            = [] -> null
+      - period                                = 60 -> null
+      - statistic                             = "Average" -> null
+      - tags                                  = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                              = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - threshold                             = 70 -> null
+      - treat_missing_data                    = "missing" -> null
+        # (4 unchanged attributes hidden)
+    }
+
+  # module.asg.aws_cloudwatch_metric_alarm.cpu_low will be destroyed
+  - resource "aws_cloudwatch_metric_alarm" "cpu_low" {
+      - actions_enabled                       = true -> null
+      - alarm_actions                         = [
+          - "arn:aws:autoscaling:ap-south-1:118402680584:scalingPolicy:4f53b8fb-c14c-4ff5-b7f8-e8c28f47ace0:autoScalingGroupName/tf-test-asg-:policyName/tf-test-scale-in",
+        ] -> null
+      - alarm_description                     = "Scale in when CPU < 30%" -> null
+      - alarm_name                            = "tf-test-cpu-low" -> null
+      - arn                                   = "arn:aws:cloudwatch:ap-south-1:118402680584:alarm:tf-test-cpu-low" -> null
+      - comparison_operator                   = "LessThanThreshold" -> null
+      - datapoints_to_alarm                   = 0 -> null
+      - dimensions                            = {
+          - "AutoScalingGroupName" = "tf-test-asg-"
+        } -> null
+      - evaluation_periods                    = 2 -> null
+      - id                                    = "tf-test-cpu-low" -> null
+      - insufficient_data_actions             = [] -> null
+      - metric_name                           = "CPUUtilization" -> null
+      - namespace                             = "AWS/EC2" -> null
+      - ok_actions                            = [] -> null
+      - period                                = 60 -> null
+      - statistic                             = "Average" -> null
+      - tags                                  = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                              = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - threshold                             = 30 -> null
+      - treat_missing_data                    = "missing" -> null
+        # (4 unchanged attributes hidden)
+    }
+
+  # module.asg.aws_launch_template.this will be destroyed
+  - resource "aws_launch_template" "this" {
+      - arn                                  = "arn:aws:ec2:ap-south-1:118402680584:launch-template/lt-09968d66bfd98ebf2" -> null
+      - default_version                      = 1 -> null
+      - disable_api_stop                     = false -> null
+      - disable_api_termination              = false -> null
+      - id                                   = "lt-09968d66bfd98ebf2" -> null
+      - image_id                             = "ami-09d623d7034669ca5" -> null
+      - instance_type                        = "t2.micro" -> null
+      - key_name                             = "ayush-terraform-assignment" -> null
+      - latest_version                       = 2 -> null
+      - name                                 = "tf-test-lt-20260429073634987500000006" -> null
+      - name_prefix                          = "tf-test-lt-" -> null
+      - security_group_names                 = [] -> null
+      - tags                                 = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                             = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - user_data                            = "IyEvYmluL2Jhc2gKc2V0IC1lCmV4ZWMgPiAvdmFyL2xvZy91c2VyLWRhdGEubG9nIDI+JjEKCnl1bSB1cGRhdGUgLXkKYW1hem9uLWxpbnV4LWV4dHJhcyBpbnN0YWxsIG5naW54MSAteQp5dW0gaW5zdGFsbCAteSBnaXQgdW56aXAgcnVieSB3Z2V0CgpjZCAvaG9tZS9lYzItdXNlcgp3Z2V0IGh0dHBzOi8vYXdzLWNvZGVkZXBsb3ktYXAtc291dGgtMS5zMy5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb20vbGF0ZXN0L2luc3RhbGwKY2htb2QgK3ggLi9pbnN0YWxsCi4vaW5zdGFsbCBhdXRvIHx8IHRydWUKc3lzdGVtY3RsIGVuYWJsZSBjb2RlZGVwbG95LWFnZW50IHx8IHRydWUKc3lzdGVtY3RsIHN0YXJ0IGNvZGVkZXBsb3ktYWdlbnQgIHx8IHRydWUKCm1rZGlyIC1wIC91c3Ivc2hhcmUvbmdpbngvaHRtbApjYXQgPiAvdXNyL3NoYXJlL25naW54L2h0bWwvaW5kZXguaHRtbCA8PCdIVE1MJwo8IURPQ1RZUEUgaHRtbD4KPGh0bWw+CjxoZWFkPjx0aXRsZT5UZXJyYWZvcm0gUHJhY3RpY2FsIFRlc3Q8L3RpdGxlPgo8c3R5bGU+Ym9keXtmb250LWZhbWlseTpzYW5zLXNlcmlmO3RleHQtYWxpZ246Y2VudGVyO3BhZGRpbmctdG9wOjgwcHg7YmFja2dyb3VuZDojMGEzZDYyO2NvbG9yOiNmZmZ9aDF7Zm9udC1zaXplOjQycHh9PC9zdHlsZT4KPC9oZWFkPgo8Ym9keT4KICA8aDE+VGVycmFmb3JtIFByYWN0aWNhbCBUZXN0IENvbXBsZXRlZDwvaDE+CiAgPHA+U2VydmVkIGJ5IEFTRyBpbnN0YW5jZTogJChob3N0bmFtZSkgLSAkKGRhdGUgLXUpPC9wPgo8L2JvZHk+CjwvaHRtbD4KSFRNTAoKc3lzdGVtY3RsIGVuYWJsZSBuZ2lueApzeXN0ZW1jdGwgc3RhcnQgbmdpbngK" -> null
+      - vpc_security_group_ids               = [] -> null
+        # (5 unchanged attributes hidden)
+
+      - block_device_mappings {
+          - device_name  = "/dev/xvda" -> null
+            # (2 unchanged attributes hidden)
+
+          - ebs {
+              - delete_on_termination      = "true" -> null
+              - iops                       = 0 -> null
+              - throughput                 = 0 -> null
+              - volume_initialization_rate = 0 -> null
+              - volume_size                = 8 -> null
+              - volume_type                = "gp2" -> null
+                # (3 unchanged attributes hidden)
+            }
+        }
+
+      - iam_instance_profile {
+          - name = "tf-test-ec2-profile" -> null
+            # (1 unchanged attribute hidden)
+        }
+
+      - monitoring {
+          - enabled = true -> null
+        }
+
+      - network_interfaces {
+          - associate_public_ip_address  = "true" -> null
+          - device_index                 = 0 -> null
+          - ipv4_address_count           = 0 -> null
+          - ipv4_addresses               = [] -> null
+          - ipv4_prefix_count            = 0 -> null
+          - ipv4_prefixes                = [] -> null
+          - ipv6_address_count           = 0 -> null
+          - ipv6_addresses               = [] -> null
+          - ipv6_prefix_count            = 0 -> null
+          - ipv6_prefixes                = [] -> null
+          - network_card_index           = 0 -> null
+          - security_groups              = [
+              - "sg-02745a6c8dba62de4",
+            ] -> null
+            # (8 unchanged attributes hidden)
+        }
+
+      - tag_specifications {
+          - resource_type = "instance" -> null
+          - tags          = {
+              - "AutoSchedule" = "true"
+              - "Name"         = "tf-test-asg-instance"
+              - "environment"  = "dev"
+              - "managed_by"   = "terraform"
+              - "owner"        = "krishal"
+              - "project"      = "terraform-practical-test"
+            } -> null
+        }
+    }
+
+  # module.cicd.aws_codebuild_project.this will be destroyed
+  - resource "aws_codebuild_project" "this" {
+      - arn                    = "arn:aws:codebuild:ap-south-1:118402680584:project/tf-test-build" -> null
+      - badge_enabled          = false -> null
+      - build_timeout          = 60 -> null
+      - concurrent_build_limit = 0 -> null
+      - encryption_key         = "arn:aws:kms:ap-south-1:118402680584:alias/aws/s3" -> null
+      - id                     = "arn:aws:codebuild:ap-south-1:118402680584:project/tf-test-build" -> null
+      - name                   = "tf-test-build" -> null
+      - project_visibility     = "PRIVATE" -> null
+      - queued_timeout         = 480 -> null
+      - service_role           = "arn:aws:iam::118402680584:role/tf-test-codebuild-role" -> null
+      - tags                   = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all               = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+        # (5 unchanged attributes hidden)
+
+      - artifacts {
+          - encryption_disabled    = false -> null
+          - name                   = "tf-test-build" -> null
+          - override_artifact_name = false -> null
+          - packaging              = "NONE" -> null
+          - type                   = "CODEPIPELINE" -> null
+            # (5 unchanged attributes hidden)
+        }
+
+      - cache {
+          - modes    = [] -> null
+          - type     = "NO_CACHE" -> null
+            # (1 unchanged attribute hidden)
+        }
+
+      - environment {
+          - compute_type                = "BUILD_GENERAL1_SMALL" -> null
+          - image                       = "aws/codebuild/amazonlinux2-x86_64-standard:5.0" -> null
+          - image_pull_credentials_type = "CODEBUILD" -> null
+          - privileged_mode             = false -> null
+          - type                        = "LINUX_CONTAINER" -> null
+            # (1 unchanged attribute hidden)
+        }
+
+      - logs_config {
+          - cloudwatch_logs {
+              - group_name  = "/aws/codebuild/tf-test-build" -> null
+              - status      = "ENABLED" -> null
+                # (1 unchanged attribute hidden)
+            }
+          - s3_logs {
+              - encryption_disabled = false -> null
+              - status              = "DISABLED" -> null
+                # (2 unchanged attributes hidden)
+            }
+        }
+
+      - source {
+          - buildspec           = "terraform/dev/cicd_assets/buildspec.yml" -> null
+          - git_clone_depth     = 0 -> null
+          - insecure_ssl        = false -> null
+          - report_build_status = false -> null
+          - type                = "CODEPIPELINE" -> null
+            # (1 unchanged attribute hidden)
+        }
+    }
+
+  # module.cicd.aws_codedeploy_app.this will be destroyed
+  - resource "aws_codedeploy_app" "this" {
+      - application_id      = "2cdacf50-dd29-4208-ade7-3a23ad1eee82" -> null
+      - arn                 = "arn:aws:codedeploy:ap-south-1:118402680584:application:tf-test-app" -> null
+      - compute_platform    = "Server" -> null
+      - id                  = "2cdacf50-dd29-4208-ade7-3a23ad1eee82:tf-test-app" -> null
+      - linked_to_github    = false -> null
+      - name                = "tf-test-app" -> null
+      - tags                = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all            = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.cicd.aws_codedeploy_deployment_group.this will be destroyed
+  - resource "aws_codedeploy_deployment_group" "this" {
+      - app_name                    = "tf-test-app" -> null
+      - arn                         = "arn:aws:codedeploy:ap-south-1:118402680584:deploymentgroup:tf-test-app/tf-test-dg" -> null
+      - autoscaling_groups          = [] -> null
+      - compute_platform            = "Server" -> null
+      - deployment_config_name      = "CodeDeployDefault.AllAtOnce" -> null
+      - deployment_group_id         = "29372d08-93b4-4263-aa6f-60f4832ed056" -> null
+      - deployment_group_name       = "tf-test-dg" -> null
+      - id                          = "29372d08-93b4-4263-aa6f-60f4832ed056" -> null
+      - outdated_instances_strategy = "UPDATE" -> null
+      - service_role_arn            = "arn:aws:iam::118402680584:role/tf-test-codedeploy-role" -> null
+      - tags                        = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                    = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - termination_hook_enabled    = false -> null
+
+      - auto_rollback_configuration {
+          - enabled = true -> null
+          - events  = [
+              - "DEPLOYMENT_FAILURE",
+            ] -> null
+        }
+
+      - deployment_style {
+          - deployment_option = "WITHOUT_TRAFFIC_CONTROL" -> null
+          - deployment_type   = "IN_PLACE" -> null
+        }
+
+      - ec2_tag_set {
+          - ec2_tag_filter {
+              - key   = "AutoSchedule" -> null
+              - type  = "KEY_AND_VALUE" -> null
+              - value = "true" -> null
+            }
+        }
+    }
+
+  # module.cicd.aws_codepipeline.this will be destroyed
+  - resource "aws_codepipeline" "this" {
+      - arn            = "arn:aws:codepipeline:ap-south-1:118402680584:tf-test-pipeline" -> null
+      - execution_mode = "SUPERSEDED" -> null
+      - id             = "tf-test-pipeline" -> null
+      - name           = "tf-test-pipeline" -> null
+      - pipeline_type  = "V1" -> null
+      - role_arn       = "arn:aws:iam::118402680584:role/tf-test-codepipeline-role" -> null
+      - tags           = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all       = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - trigger_all    = [] -> null
+
+      - artifact_store {
+          - location = "tf-test-pipeline-artifacts-118402680584" -> null
+          - type     = "S3" -> null
+            # (1 unchanged attribute hidden)
+        }
+
+      - stage {
+          - name = "Source" -> null
+
+          - action {
+              - category           = "Source" -> null
+              - configuration      = {
+                  - "BranchName"       = "main"
+                  - "ConnectionArn"    = "arn:aws:codestar-connections:ap-south-1:118402680584:connection/d8da454a-692a-4487-b94f-f4099623daeb"
+                  - "FullRepositoryId" = "krishaldankhara-growexxer/terraform-practical-test"
+                } -> null
+              - input_artifacts    = [] -> null
+              - name               = "Source" -> null
+              - output_artifacts   = [
+                  - "source_output",
+                ] -> null
+              - owner              = "AWS" -> null
+              - provider           = "CodeStarSourceConnection" -> null
+              - run_order          = 1 -> null
+              - timeout_in_minutes = 0 -> null
+              - version            = "1" -> null
+                # (3 unchanged attributes hidden)
+            }
+        }
+      - stage {
+          - name = "Build" -> null
+
+          - action {
+              - category           = "Build" -> null
+              - configuration      = {
+                  - "ProjectName" = "tf-test-build"
+                } -> null
+              - input_artifacts    = [
+                  - "source_output",
+                ] -> null
+              - name               = "Build" -> null
+              - output_artifacts   = [
+                  - "build_output",
+                ] -> null
+              - owner              = "AWS" -> null
+              - provider           = "CodeBuild" -> null
+              - run_order          = 1 -> null
+              - timeout_in_minutes = 0 -> null
+              - version            = "1" -> null
+                # (3 unchanged attributes hidden)
+            }
+        }
+      - stage {
+          - name = "Deploy" -> null
+
+          - action {
+              - category           = "Deploy" -> null
+              - configuration      = {
+                  - "ApplicationName"     = "tf-test-app"
+                  - "DeploymentGroupName" = "tf-test-dg"
+                } -> null
+              - input_artifacts    = [
+                  - "build_output",
+                ] -> null
+              - name               = "Deploy" -> null
+              - output_artifacts   = [] -> null
+              - owner              = "AWS" -> null
+              - provider           = "CodeDeploy" -> null
+              - run_order          = 1 -> null
+              - timeout_in_minutes = 0 -> null
+              - version            = "1" -> null
+                # (3 unchanged attributes hidden)
+            }
+        }
+    }
+
+  # module.cicd.aws_codestarconnections_connection.github will be destroyed
+  - resource "aws_codestarconnections_connection" "github" {
+      - arn               = "arn:aws:codestar-connections:ap-south-1:118402680584:connection/d8da454a-692a-4487-b94f-f4099623daeb" -> null
+      - connection_status = "AVAILABLE" -> null
+      - id                = "arn:aws:codestar-connections:ap-south-1:118402680584:connection/d8da454a-692a-4487-b94f-f4099623daeb" -> null
+      - name              = "tf-test-github-conn" -> null
+      - provider_type     = "GitHub" -> null
+      - tags              = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all          = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.cicd.aws_iam_role.codebuild will be destroyed
+  - resource "aws_iam_role" "codebuild" {
+      - arn                   = "arn:aws:iam::118402680584:role/tf-test-codebuild-role" -> null
+      - assume_role_policy    = jsonencode(
+            {
+              - Statement = [
+                  - {
+                      - Action    = "sts:AssumeRole"
+                      - Effect    = "Allow"
+                      - Principal = {
+                          - Service = "codebuild.amazonaws.com"
+                        }
+                    },
+                ]
+              - Version   = "2012-10-17"
+            }
+        ) -> null
+      - create_date           = "2026-04-29T07:36:20Z" -> null
+      - force_detach_policies = false -> null
+      - id                    = "tf-test-codebuild-role" -> null
+      - managed_policy_arns   = [] -> null
+      - max_session_duration  = 3600 -> null
+      - name                  = "tf-test-codebuild-role" -> null
+      - path                  = "/" -> null
+      - tags                  = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all              = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - unique_id             = "AROARXEKZQ4EIDJ773FRR" -> null
+        # (3 unchanged attributes hidden)
+
+      - inline_policy {
+          - name   = "tf-test-codebuild-policy" -> null
+          - policy = jsonencode(
+                {
+                  - Statement = [
+                      - {
+                          - Action   = [
+                              - "logs:CreateLogGroup",
+                              - "logs:CreateLogStream",
+                              - "logs:PutLogEvents",
+                            ]
+                          - Effect   = "Allow"
+                          - Resource = "*"
+                        },
+                      - {
+                          - Action   = [
+                              - "s3:GetObject",
+                              - "s3:GetObjectVersion",
+                              - "s3:PutObject",
+                              - "s3:GetBucketVersioning",
+                              - "s3:ListBucket",
+                            ]
+                          - Effect   = "Allow"
+                          - Resource = [
+                              - "arn:aws:s3:::tf-test-pipeline-artifacts-118402680584",
+                              - "arn:aws:s3:::tf-test-pipeline-artifacts-118402680584/*",
+                            ]
+                        },
+                      - {
+                          - Action   = [
+                              - "codebuild:CreateReportGroup",
+                              - "codebuild:CreateReport",
+                              - "codebuild:UpdateReport",
+                              - "codebuild:BatchPutTestCases",
+                              - "codebuild:BatchPutCodeCoverages",
+                            ]
+                          - Effect   = "Allow"
+                          - Resource = "*"
+                        },
+                    ]
+                  - Version   = "2012-10-17"
+                }
+            ) -> null
+        }
+    }
+
+  # module.cicd.aws_iam_role.codedeploy will be destroyed
+  - resource "aws_iam_role" "codedeploy" {
+      - arn                   = "arn:aws:iam::118402680584:role/tf-test-codedeploy-role" -> null
+      - assume_role_policy    = jsonencode(
+            {
+              - Statement = [
+                  - {
+                      - Action    = "sts:AssumeRole"
+                      - Effect    = "Allow"
+                      - Principal = {
+                          - Service = "codedeploy.amazonaws.com"
+                        }
+                    },
+                ]
+              - Version   = "2012-10-17"
+            }
+        ) -> null
+      - create_date           = "2026-04-29T07:36:20Z" -> null
+      - force_detach_policies = false -> null
+      - id                    = "tf-test-codedeploy-role" -> null
+      - managed_policy_arns   = [
+          - "arn:aws:iam::aws:policy/service-role/AWSCodeDeployRole",
+        ] -> null
+      - max_session_duration  = 3600 -> null
+      - name                  = "tf-test-codedeploy-role" -> null
+      - path                  = "/" -> null
+      - tags                  = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all              = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - unique_id             = "AROARXEKZQ4EBIQZYQNKV" -> null
+        # (3 unchanged attributes hidden)
+    }
+
+  # module.cicd.aws_iam_role.codepipeline will be destroyed
+  - resource "aws_iam_role" "codepipeline" {
+      - arn                   = "arn:aws:iam::118402680584:role/tf-test-codepipeline-role" -> null
+      - assume_role_policy    = jsonencode(
+            {
+              - Statement = [
+                  - {
+                      - Action    = "sts:AssumeRole"
+                      - Effect    = "Allow"
+                      - Principal = {
+                          - Service = "codepipeline.amazonaws.com"
+                        }
+                    },
+                ]
+              - Version   = "2012-10-17"
+            }
+        ) -> null
+      - create_date           = "2026-04-29T07:36:20Z" -> null
+      - force_detach_policies = false -> null
+      - id                    = "tf-test-codepipeline-role" -> null
+      - managed_policy_arns   = [] -> null
+      - max_session_duration  = 3600 -> null
+      - name                  = "tf-test-codepipeline-role" -> null
+      - path                  = "/" -> null
+      - tags                  = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all              = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - unique_id             = "AROARXEKZQ4EB3YGER4O7" -> null
+        # (3 unchanged attributes hidden)
+
+      - inline_policy {
+          - name   = "tf-test-codepipeline-policy" -> null
+          - policy = jsonencode(
+                {
+                  - Statement = [
+                      - {
+                          - Action   = [
+                              - "s3:GetObject",
+                              - "s3:GetObjectVersion",
+                              - "s3:PutObject",
+                              - "s3:GetBucketVersioning",
+                              - "s3:ListBucket",
+                            ]
+                          - Effect   = "Allow"
+                          - Resource = [
+                              - "arn:aws:s3:::tf-test-pipeline-artifacts-118402680584",
+                              - "arn:aws:s3:::tf-test-pipeline-artifacts-118402680584/*",
+                            ]
+                        },
+                      - {
+                          - Action   = [
+                              - "codebuild:BatchGetBuilds",
+                              - "codebuild:StartBuild",
+                            ]
+                          - Effect   = "Allow"
+                          - Resource = "arn:aws:codebuild:ap-south-1:118402680584:project/tf-test-build"
+                        },
+                      - {
+                          - Action   = [
+                              - "codedeploy:CreateDeployment",
+                              - "codedeploy:GetApplication",
+                              - "codedeploy:GetApplicationRevision",
+                              - "codedeploy:GetDeployment",
+                              - "codedeploy:GetDeploymentConfig",
+                              - "codedeploy:RegisterApplicationRevision",
+                            ]
+                          - Effect   = "Allow"
+                          - Resource = "*"
+                        },
+                      - {
+                          - Action   = [
+                              - "codestar-connections:UseConnection",
+                            ]
+                          - Effect   = "Allow"
+                          - Resource = "arn:aws:codestar-connections:ap-south-1:118402680584:connection/d8da454a-692a-4487-b94f-f4099623daeb"
+                        },
+                    ]
+                  - Version   = "2012-10-17"
+                }
+            ) -> null
+        }
+    }
+
+  # module.cicd.aws_iam_role_policy.codebuild will be destroyed
+  - resource "aws_iam_role_policy" "codebuild" {
+      - id          = "tf-test-codebuild-role:tf-test-codebuild-policy" -> null
+      - name        = "tf-test-codebuild-policy" -> null
+      - policy      = jsonencode(
+            {
+              - Statement = [
+                  - {
+                      - Action   = [
+                          - "logs:CreateLogGroup",
+                          - "logs:CreateLogStream",
+                          - "logs:PutLogEvents",
+                        ]
+                      - Effect   = "Allow"
+                      - Resource = "*"
+                    },
+                  - {
+                      - Action   = [
+                          - "s3:GetObject",
+                          - "s3:GetObjectVersion",
+                          - "s3:PutObject",
+                          - "s3:GetBucketVersioning",
+                          - "s3:ListBucket",
+                        ]
+                      - Effect   = "Allow"
+                      - Resource = [
+                          - "arn:aws:s3:::tf-test-pipeline-artifacts-118402680584",
+                          - "arn:aws:s3:::tf-test-pipeline-artifacts-118402680584/*",
+                        ]
+                    },
+                  - {
+                      - Action   = [
+                          - "codebuild:CreateReportGroup",
+                          - "codebuild:CreateReport",
+                          - "codebuild:UpdateReport",
+                          - "codebuild:BatchPutTestCases",
+                          - "codebuild:BatchPutCodeCoverages",
+                        ]
+                      - Effect   = "Allow"
+                      - Resource = "*"
+                    },
+                ]
+              - Version   = "2012-10-17"
+            }
+        ) -> null
+      - role        = "tf-test-codebuild-role" -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.cicd.aws_iam_role_policy.codepipeline will be destroyed
+  - resource "aws_iam_role_policy" "codepipeline" {
+      - id          = "tf-test-codepipeline-role:tf-test-codepipeline-policy" -> null
+      - name        = "tf-test-codepipeline-policy" -> null
+      - policy      = jsonencode(
+            {
+              - Statement = [
+                  - {
+                      - Action   = [
+                          - "s3:GetObject",
+                          - "s3:GetObjectVersion",
+                          - "s3:PutObject",
+                          - "s3:GetBucketVersioning",
+                          - "s3:ListBucket",
+                        ]
+                      - Effect   = "Allow"
+                      - Resource = [
+                          - "arn:aws:s3:::tf-test-pipeline-artifacts-118402680584",
+                          - "arn:aws:s3:::tf-test-pipeline-artifacts-118402680584/*",
+                        ]
+                    },
+                  - {
+                      - Action   = [
+                          - "codebuild:BatchGetBuilds",
+                          - "codebuild:StartBuild",
+                        ]
+                      - Effect   = "Allow"
+                      - Resource = "arn:aws:codebuild:ap-south-1:118402680584:project/tf-test-build"
+                    },
+                  - {
+                      - Action   = [
+                          - "codedeploy:CreateDeployment",
+                          - "codedeploy:GetApplication",
+                          - "codedeploy:GetApplicationRevision",
+                          - "codedeploy:GetDeployment",
+                          - "codedeploy:GetDeploymentConfig",
+                          - "codedeploy:RegisterApplicationRevision",
+                        ]
+                      - Effect   = "Allow"
+                      - Resource = "*"
+                    },
+                  - {
+                      - Action   = [
+                          - "codestar-connections:UseConnection",
+                        ]
+                      - Effect   = "Allow"
+                      - Resource = "arn:aws:codestar-connections:ap-south-1:118402680584:connection/d8da454a-692a-4487-b94f-f4099623daeb"
+                    },
+                ]
+              - Version   = "2012-10-17"
+            }
+        ) -> null
+      - role        = "tf-test-codepipeline-role" -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.cicd.aws_iam_role_policy_attachment.codedeploy will be destroyed
+  - resource "aws_iam_role_policy_attachment" "codedeploy" {
+      - id         = "tf-test-codedeploy-role-20260429073622241100000004" -> null
+      - policy_arn = "arn:aws:iam::aws:policy/service-role/AWSCodeDeployRole" -> null
+      - role       = "tf-test-codedeploy-role" -> null
+    }
+
+  # module.cicd.aws_s3_bucket.artifacts will be destroyed
+  - resource "aws_s3_bucket" "artifacts" {
+      - arn                         = "arn:aws:s3:::tf-test-pipeline-artifacts-118402680584" -> null
+      - bucket                      = "tf-test-pipeline-artifacts-118402680584" -> null
+      - bucket_domain_name          = "tf-test-pipeline-artifacts-118402680584.s3.amazonaws.com" -> null
+      - bucket_regional_domain_name = "tf-test-pipeline-artifacts-118402680584.s3.ap-south-1.amazonaws.com" -> null
+      - force_destroy               = true -> null
+      - hosted_zone_id              = "Z11RGJOFQNVJUP" -> null
+      - id                          = "tf-test-pipeline-artifacts-118402680584" -> null
+      - object_lock_enabled         = false -> null
+      - region                      = "ap-south-1" -> null
+      - request_payer               = "BucketOwner" -> null
+      - tags                        = {
+          - "Name"        = "tf-test-pipeline-artifacts"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                    = {
+          - "Name"        = "tf-test-pipeline-artifacts"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+        # (3 unchanged attributes hidden)
+
+      - grant {
+          - id          = "3f4bbb1fa51fa167c4559e0b05132e512fa626438a206c857f04d7848d7efe36" -> null
+          - permissions = [
+              - "FULL_CONTROL",
+            ] -> null
+          - type        = "CanonicalUser" -> null
+            # (1 unchanged attribute hidden)
+        }
+
+      - server_side_encryption_configuration {
+          - rule {
+              - bucket_key_enabled = false -> null
+
+              - apply_server_side_encryption_by_default {
+                  - sse_algorithm     = "AES256" -> null
+                    # (1 unchanged attribute hidden)
+                }
+            }
+        }
+
+      - versioning {
+          - enabled    = true -> null
+          - mfa_delete = false -> null
+        }
+    }
+
+  # module.cicd.aws_s3_bucket_public_access_block.artifacts will be destroyed
+  - resource "aws_s3_bucket_public_access_block" "artifacts" {
+      - block_public_acls       = true -> null
+      - block_public_policy     = true -> null
+      - bucket                  = "tf-test-pipeline-artifacts-118402680584" -> null
+      - id                      = "tf-test-pipeline-artifacts-118402680584" -> null
+      - ignore_public_acls      = true -> null
+      - restrict_public_buckets = true -> null
+    }
+
+  # module.cicd.aws_s3_bucket_server_side_encryption_configuration.artifacts will be destroyed
+  - resource "aws_s3_bucket_server_side_encryption_configuration" "artifacts" {
+      - bucket                = "tf-test-pipeline-artifacts-118402680584" -> null
+      - id                    = "tf-test-pipeline-artifacts-118402680584" -> null
+        # (1 unchanged attribute hidden)
+
+      - rule {
+          - bucket_key_enabled = false -> null
+
+          - apply_server_side_encryption_by_default {
+              - sse_algorithm     = "AES256" -> null
+                # (1 unchanged attribute hidden)
+            }
+        }
+    }
+
+  # module.cicd.aws_s3_bucket_versioning.artifacts will be destroyed
+  - resource "aws_s3_bucket_versioning" "artifacts" {
+      - bucket                = "tf-test-pipeline-artifacts-118402680584" -> null
+      - id                    = "tf-test-pipeline-artifacts-118402680584" -> null
+        # (1 unchanged attribute hidden)
+
+      - versioning_configuration {
+          - status     = "Enabled" -> null
+            # (1 unchanged attribute hidden)
+        }
+    }
+
+  # module.cloudwatch.aws_cloudwatch_dashboard.this will be destroyed
+  - resource "aws_cloudwatch_dashboard" "this" {
+      - dashboard_arn  = "arn:aws:cloudwatch::118402680584:dashboard/tf-test-dashboard" -> null
+      - dashboard_body = jsonencode(
+            {
+              - widgets = [
+                  - {
+                      - height     = 6
+                      - properties = {
+                          - metrics = [
+                              - [
+                                  - "AWS/EC2",
+                                  - "CPUUtilization",
+                                  - "AutoScalingGroupName",
+                                  - "tf-test-asg-",
+                                ],
+                            ]
+                          - period  = 60
+                          - region  = "ap-south-1"
+                          - stat    = "Average"
+                          - title   = "EC2 - CPU Utilization (ASG)"
+                          - view    = "timeSeries"
+                        }
+                      - type       = "metric"
+                      - width      = 12
+                      - x          = 0
+                      - y          = 0
+                    },
+                  - {
+                      - height     = 6
+                      - properties = {
+                          - metrics = [
+                              - [
+                                  - "AWS/EC2",
+                                  - "DiskReadBytes",
+                                  - "AutoScalingGroupName",
+                                  - "tf-test-asg-",
+                                ],
+                              - [
+                                  - ".",
+                                  - "DiskWriteBytes",
+                                  - ".",
+                                  - ".",
+                                ],
+                              - [
+                                  - ".",
+                                  - "NetworkIn",
+                                  - ".",
+                                  - ".",
+                                ],
+                              - [
+                                  - ".",
+                                  - "NetworkOut",
+                                  - ".",
+                                  - ".",
+                                ],
+                            ]
+                          - period  = 60
+                          - region  = "ap-south-1"
+                          - stat    = "Average"
+                          - title   = "EC2 - Disk + Network"
+                          - view    = "timeSeries"
+                        }
+                      - type       = "metric"
+                      - width      = 12
+                      - x          = 12
+                      - y          = 0
+                    },
+                  - {
+                      - height     = 6
+                      - properties = {
+                          - metrics = [
+                              - [
+                                  - "AWS/ApplicationELB",
+                                  - "RequestCount",
+                                  - "LoadBalancer",
+                                  - "app/tf-test-alb/71c91f3e74837784",
+                                ],
+                            ]
+                          - period  = 60
+                          - region  = "ap-south-1"
+                          - stat    = "Sum"
+                          - title   = "ALB - Request Count"
+                          - view    = "timeSeries"
+                        }
+                      - type       = "metric"
+                      - width      = 12
+                      - x          = 0
+                      - y          = 6
+                    },
+                  - {
+                      - height     = 6
+                      - properties = {
+                          - metrics = [
+                              - [
+                                  - "AWS/ApplicationELB",
+                                  - "HealthyHostCount",
+                                  - "TargetGroup",
+                                  - "targetgroup/tf-test-tg/5007a40e5153e5c7",
+                                  - "LoadBalancer",
+                                  - "app/tf-test-alb/71c91f3e74837784",
+                                ],
+                              - [
+                                  - ".",
+                                  - "UnHealthyHostCount",
+                                  - ".",
+                                  - ".",
+                                  - ".",
+                                  - ".",
+                                ],
+                            ]
+                          - period  = 60
+                          - region  = "ap-south-1"
+                          - stat    = "Average"
+                          - title   = "ALB - Healthy / Unhealthy Hosts"
+                          - view    = "timeSeries"
+                        }
+                      - type       = "metric"
+                      - width      = 12
+                      - x          = 12
+                      - y          = 6
+                    },
+                  - {
+                      - height     = 6
+                      - properties = {
+                          - metrics = [
+                              - [
+                                  - "AWS/RDS",
+                                  - "CPUUtilization",
+                                  - "DBInstanceIdentifier",
+                                  - "db-XF4C2L4RUZNWYRXZFBYVO2QCCY",
+                                ],
+                            ]
+                          - period  = 60
+                          - region  = "ap-south-1"
+                          - stat    = "Average"
+                          - title   = "RDS - CPU Utilization"
+                          - view    = "timeSeries"
+                        }
+                      - type       = "metric"
+                      - width      = 8
+                      - x          = 0
+                      - y          = 12
+                    },
+                  - {
+                      - height     = 6
+                      - properties = {
+                          - metrics = [
+                              - [
+                                  - "AWS/RDS",
+                                  - "FreeStorageSpace",
+                                  - "DBInstanceIdentifier",
+                                  - "db-XF4C2L4RUZNWYRXZFBYVO2QCCY",
+                                ],
+                            ]
+                          - period  = 60
+                          - region  = "ap-south-1"
+                          - stat    = "Average"
+                          - title   = "RDS - Free Storage Space"
+                          - view    = "timeSeries"
+                        }
+                      - type       = "metric"
+                      - width      = 8
+                      - x          = 8
+                      - y          = 12
+                    },
+                  - {
+                      - height     = 6
+                      - properties = {
+                          - metrics = [
+                              - [
+                                  - "AWS/RDS",
+                                  - "DatabaseConnections",
+                                  - "DBInstanceIdentifier",
+                                  - "db-XF4C2L4RUZNWYRXZFBYVO2QCCY",
+                                ],
+                            ]
+                          - period  = 60
+                          - region  = "ap-south-1"
+                          - stat    = "Average"
+                          - title   = "RDS - DB Connections"
+                          - view    = "timeSeries"
+                        }
+                      - type       = "metric"
+                      - width      = 8
+                      - x          = 16
+                      - y          = 12
+                    },
+                ]
+            }
+        ) -> null
+      - dashboard_name = "tf-test-dashboard" -> null
+      - id             = "tf-test-dashboard" -> null
+    }
+
+  # module.ec2.aws_iam_instance_profile.ec2 will be destroyed
+  - resource "aws_iam_instance_profile" "ec2" {
+      - arn         = "arn:aws:iam::118402680584:instance-profile/tf-test-ec2-profile" -> null
+      - create_date = "2026-04-29T07:36:21Z" -> null
+      - id          = "tf-test-ec2-profile" -> null
+      - name        = "tf-test-ec2-profile" -> null
+      - path        = "/" -> null
+      - role        = "tf-test-ec2-role" -> null
+      - tags        = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all    = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - unique_id   = "AIPARXEKZQ4EPI433U7NO" -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.ec2.aws_iam_role.ec2 will be destroyed
+  - resource "aws_iam_role" "ec2" {
+      - arn                   = "arn:aws:iam::118402680584:role/tf-test-ec2-role" -> null
+      - assume_role_policy    = jsonencode(
+            {
+              - Statement = [
+                  - {
+                      - Action    = "sts:AssumeRole"
+                      - Effect    = "Allow"
+                      - Principal = {
+                          - Service = "ec2.amazonaws.com"
+                        }
+                    },
+                ]
+              - Version   = "2012-10-17"
+            }
+        ) -> null
+      - create_date           = "2026-04-29T07:36:20Z" -> null
+      - force_detach_policies = false -> null
+      - id                    = "tf-test-ec2-role" -> null
+      - managed_policy_arns   = [
+          - "arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore",
+          - "arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy",
+          - "arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeploy",
+        ] -> null
+      - max_session_duration  = 3600 -> null
+      - name                  = "tf-test-ec2-role" -> null
+      - path                  = "/" -> null
+      - tags                  = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all              = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - unique_id             = "AROARXEKZQ4EPRUC7P67O" -> null
+        # (3 unchanged attributes hidden)
+    }
+
+  # module.ec2.aws_iam_role_policy_attachment.ec2_cloudwatch will be destroyed
+  - resource "aws_iam_role_policy_attachment" "ec2_cloudwatch" {
+      - id         = "tf-test-ec2-role-20260429073621979000000002" -> null
+      - policy_arn = "arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy" -> null
+      - role       = "tf-test-ec2-role" -> null
+    }
+
+  # module.ec2.aws_iam_role_policy_attachment.ec2_codedeploy will be destroyed
+  - resource "aws_iam_role_policy_attachment" "ec2_codedeploy" {
+      - id         = "tf-test-ec2-role-20260429073621978600000001" -> null
+      - policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeploy" -> null
+      - role       = "tf-test-ec2-role" -> null
+    }
+
+  # module.ec2.aws_iam_role_policy_attachment.ec2_ssm will be destroyed
+  - resource "aws_iam_role_policy_attachment" "ec2_ssm" {
+      - id         = "tf-test-ec2-role-20260429073622036100000003" -> null
+      - policy_arn = "arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore" -> null
+      - role       = "tf-test-ec2-role" -> null
+    }
+
+  # module.ec2.aws_instance.this will be destroyed
+  - resource "aws_instance" "this" {
+      - ami                                  = "ami-09d623d7034669ca5" -> null
+      - arn                                  = "arn:aws:ec2:ap-south-1:118402680584:instance/i-03364a26213a621d0" -> null
+      - associate_public_ip_address          = true -> null
+      - availability_zone                    = "ap-south-1a" -> null
+      - cpu_core_count                       = 1 -> null
+      - cpu_threads_per_core                 = 1 -> null
+      - disable_api_stop                     = false -> null
+      - disable_api_termination              = false -> null
+      - ebs_optimized                        = false -> null
+      - get_password_data                    = false -> null
+      - hibernation                          = false -> null
+      - iam_instance_profile                 = "tf-test-ec2-profile" -> null
+      - id                                   = "i-03364a26213a621d0" -> null
+      - instance_initiated_shutdown_behavior = "stop" -> null
+      - instance_state                       = "running" -> null
+      - instance_type                        = "t2.micro" -> null
+      - ipv6_address_count                   = 0 -> null
+      - ipv6_addresses                       = [] -> null
+      - key_name                             = "ayush-terraform-assignment" -> null
+      - monitoring                           = true -> null
+      - placement_partition_number           = 0 -> null
+      - primary_network_interface_id         = "eni-0fc4281201d35de6a" -> null
+      - private_dns                          = "ip-10-0-1-86.ap-south-1.compute.internal" -> null
+      - private_ip                           = "10.0.1.86" -> null
+      - public_dns                           = "ec2-13-233-34-3.ap-south-1.compute.amazonaws.com" -> null
+      - public_ip                            = "13.233.34.3" -> null
+      - secondary_private_ips                = [] -> null
+      - security_groups                      = [] -> null
+      - source_dest_check                    = true -> null
+      - subnet_id                            = "subnet-00991ed3b9c52c581" -> null
+      - tags                                 = {
+          - "AutoSchedule" = "true"
+          - "Name"         = "tf-test-ec2"
+          - "environment"  = "dev"
+          - "managed_by"   = "terraform"
+          - "owner"        = "krishal"
+          - "project"      = "terraform-practical-test"
+        } -> null
+      - tags_all                             = {
+          - "AutoSchedule" = "true"
+          - "Name"         = "tf-test-ec2"
+          - "environment"  = "dev"
+          - "managed_by"   = "terraform"
+          - "owner"        = "krishal"
+          - "project"      = "terraform-practical-test"
+        } -> null
+      - tenancy                              = "default" -> null
+      - user_data                            = "1b4e97ba20cd4732714861ca2d3783faaff797a1" -> null
+      - user_data_replace_on_change          = false -> null
+      - vpc_security_group_ids               = [
+          - "sg-02745a6c8dba62de4",
+        ] -> null
+        # (6 unchanged attributes hidden)
+
+      - capacity_reservation_specification {
+          - capacity_reservation_preference = "open" -> null
+        }
+
+      - cpu_options {
+          - core_count       = 1 -> null
+          - threads_per_core = 1 -> null
+            # (1 unchanged attribute hidden)
+        }
+
+      - credit_specification {
+          - cpu_credits = "standard" -> null
+        }
+
+      - enclave_options {
+          - enabled = false -> null
+        }
+
+      - maintenance_options {
+          - auto_recovery = "default" -> null
+        }
+
+      - metadata_options {
+          - http_endpoint               = "enabled" -> null
+          - http_protocol_ipv6          = "disabled" -> null
+          - http_put_response_hop_limit = 1 -> null
+          - http_tokens                 = "optional" -> null
+          - instance_metadata_tags      = "disabled" -> null
+        }
+
+      - private_dns_name_options {
+          - enable_resource_name_dns_a_record    = false -> null
+          - enable_resource_name_dns_aaaa_record = false -> null
+          - hostname_type                        = "ip-name" -> null
+        }
+
+      - root_block_device {
+          - delete_on_termination = true -> null
+          - device_name           = "/dev/xvda" -> null
+          - encrypted             = false -> null
+          - iops                  = 100 -> null
+          - tags                  = {} -> null
+          - tags_all              = {
+              - "environment" = "dev"
+              - "managed_by"  = "terraform"
+              - "owner"       = "krishal"
+              - "project"     = "terraform-practical-test"
+            } -> null
+          - throughput            = 0 -> null
+          - volume_id             = "vol-05e2b33ff2389c174" -> null
+          - volume_size           = 8 -> null
+          - volume_type           = "gp2" -> null
+            # (1 unchanged attribute hidden)
+        }
+    }
+
+  # module.ec2.aws_security_group.ec2 will be destroyed
+  - resource "aws_security_group" "ec2" {
+      - arn                    = "arn:aws:ec2:ap-south-1:118402680584:security-group/sg-02745a6c8dba62de4" -> null
+      - description            = "Allow HTTP from ALB and SSH from admin CIDR" -> null
+      - egress                 = [
+          - {
+              - cidr_blocks      = [
+                  - "0.0.0.0/0",
+                ]
+              - description      = "All outbound"
+              - from_port        = 0
+              - ipv6_cidr_blocks = []
+              - prefix_list_ids  = []
+              - protocol         = "-1"
+              - security_groups  = []
+              - self             = false
+              - to_port          = 0
+            },
+        ] -> null
+      - id                     = "sg-02745a6c8dba62de4" -> null
+      - ingress                = [
+          - {
+              - cidr_blocks      = [
+                  - "0.0.0.0/0",
+                ]
+              - description      = "SSH from admin CIDR"
+              - from_port        = 22
+              - ipv6_cidr_blocks = []
+              - prefix_list_ids  = []
+              - protocol         = "tcp"
+              - security_groups  = []
+              - self             = false
+              - to_port          = 22
+            },
+          - {
+              - cidr_blocks      = []
+              - description      = "HTTP from ALB"
+              - from_port        = 80
+              - ipv6_cidr_blocks = []
+              - prefix_list_ids  = []
+              - protocol         = "tcp"
+              - security_groups  = [
+                  - "sg-05a193c2344673582",
+                ]
+              - self             = false
+              - to_port          = 80
+            },
+        ] -> null
+      - name                   = "tf-test-ec2-sg" -> null
+      - owner_id               = "118402680584" -> null
+      - revoke_rules_on_delete = false -> null
+      - tags                   = {
+          - "Name"        = "tf-test-ec2-sg"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all               = {
+          - "Name"        = "tf-test-ec2-sg"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - vpc_id                 = "vpc-0defbe83925860ca9" -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.lambda.aws_cloudwatch_event_rule.start will be destroyed
+  - resource "aws_cloudwatch_event_rule" "start" {
+      - arn                 = "arn:aws:events:ap-south-1:118402680584:rule/tf-test-start-rule" -> null
+      - description         = "Start EC2 and RDS at 8 AM IST" -> null
+      - event_bus_name      = "default" -> null
+      - force_destroy       = false -> null
+      - id                  = "tf-test-start-rule" -> null
+      - is_enabled          = true -> null
+      - name                = "tf-test-start-rule" -> null
+      - schedule_expression = "cron(30 2 * * ? *)" -> null
+      - state               = "ENABLED" -> null
+      - tags                = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all            = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+        # (2 unchanged attributes hidden)
+    }
+
+  # module.lambda.aws_cloudwatch_event_rule.stop will be destroyed
+  - resource "aws_cloudwatch_event_rule" "stop" {
+      - arn                 = "arn:aws:events:ap-south-1:118402680584:rule/tf-test-stop-rule" -> null
+      - description         = "Stop EC2 and RDS at 8 PM IST" -> null
+      - event_bus_name      = "default" -> null
+      - force_destroy       = false -> null
+      - id                  = "tf-test-stop-rule" -> null
+      - is_enabled          = true -> null
+      - name                = "tf-test-stop-rule" -> null
+      - schedule_expression = "cron(30 14 * * ? *)" -> null
+      - state               = "ENABLED" -> null
+      - tags                = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all            = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+        # (2 unchanged attributes hidden)
+    }
+
+  # module.lambda.aws_cloudwatch_event_target.start will be destroyed
+  - resource "aws_cloudwatch_event_target" "start" {
+      - arn            = "arn:aws:lambda:ap-south-1:118402680584:function:tf-test-scheduler-start" -> null
+      - event_bus_name = "default" -> null
+      - force_destroy  = false -> null
+      - id             = "tf-test-start-rule-StartScheduler" -> null
+      - rule           = "tf-test-start-rule" -> null
+      - target_id      = "StartScheduler" -> null
+        # (3 unchanged attributes hidden)
+    }
+
+  # module.lambda.aws_cloudwatch_event_target.stop will be destroyed
+  - resource "aws_cloudwatch_event_target" "stop" {
+      - arn            = "arn:aws:lambda:ap-south-1:118402680584:function:tf-test-scheduler-stop" -> null
+      - event_bus_name = "default" -> null
+      - force_destroy  = false -> null
+      - id             = "tf-test-stop-rule-StopScheduler" -> null
+      - rule           = "tf-test-stop-rule" -> null
+      - target_id      = "StopScheduler" -> null
+        # (3 unchanged attributes hidden)
+    }
+
+  # module.lambda.aws_cloudwatch_log_group.start will be destroyed
+  - resource "aws_cloudwatch_log_group" "start" {
+      - arn               = "arn:aws:logs:ap-south-1:118402680584:log-group:/aws/lambda/tf-test-scheduler-start" -> null
+      - id                = "/aws/lambda/tf-test-scheduler-start" -> null
+      - log_group_class   = "STANDARD" -> null
+      - name              = "/aws/lambda/tf-test-scheduler-start" -> null
+      - retention_in_days = 7 -> null
+      - skip_destroy      = false -> null
+      - tags              = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all          = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+        # (2 unchanged attributes hidden)
+    }
+
+  # module.lambda.aws_cloudwatch_log_group.stop will be destroyed
+  - resource "aws_cloudwatch_log_group" "stop" {
+      - arn               = "arn:aws:logs:ap-south-1:118402680584:log-group:/aws/lambda/tf-test-scheduler-stop" -> null
+      - id                = "/aws/lambda/tf-test-scheduler-stop" -> null
+      - log_group_class   = "STANDARD" -> null
+      - name              = "/aws/lambda/tf-test-scheduler-stop" -> null
+      - retention_in_days = 7 -> null
+      - skip_destroy      = false -> null
+      - tags              = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all          = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+        # (2 unchanged attributes hidden)
+    }
+
+  # module.lambda.aws_iam_role.lambda will be destroyed
+  - resource "aws_iam_role" "lambda" {
+      - arn                   = "arn:aws:iam::118402680584:role/tf-test-scheduler-role" -> null
+      - assume_role_policy    = jsonencode(
+            {
+              - Statement = [
+                  - {
+                      - Action    = "sts:AssumeRole"
+                      - Effect    = "Allow"
+                      - Principal = {
+                          - Service = "lambda.amazonaws.com"
+                        }
+                    },
+                ]
+              - Version   = "2012-10-17"
+            }
+        ) -> null
+      - create_date           = "2026-04-29T07:36:20Z" -> null
+      - force_detach_policies = false -> null
+      - id                    = "tf-test-scheduler-role" -> null
+      - managed_policy_arns   = [] -> null
+      - max_session_duration  = 3600 -> null
+      - name                  = "tf-test-scheduler-role" -> null
+      - path                  = "/" -> null
+      - tags                  = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all              = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - unique_id             = "AROARXEKZQ4EBH46NAUPS" -> null
+        # (3 unchanged attributes hidden)
+
+      - inline_policy {
+          - name   = "tf-test-scheduler-policy" -> null
+          - policy = jsonencode(
+                {
+                  - Statement = [
+                      - {
+                          - Action   = [
+                              - "logs:CreateLogGroup",
+                              - "logs:CreateLogStream",
+                              - "logs:PutLogEvents",
+                            ]
+                          - Effect   = "Allow"
+                          - Resource = "arn:aws:logs:*:*:*"
+                        },
+                      - {
+                          - Action   = [
+                              - "ec2:DescribeInstances",
+                              - "ec2:StartInstances",
+                              - "ec2:StopInstances",
+                            ]
+                          - Effect   = "Allow"
+                          - Resource = "*"
+                        },
+                      - {
+                          - Action   = [
+                              - "rds:DescribeDBInstances",
+                              - "rds:ListTagsForResource",
+                              - "rds:StartDBInstance",
+                              - "rds:StopDBInstance",
+                            ]
+                          - Effect   = "Allow"
+                          - Resource = "*"
+                        },
+                    ]
+                  - Version   = "2012-10-17"
+                }
+            ) -> null
+        }
+    }
+
+  # module.lambda.aws_iam_role_policy.lambda will be destroyed
+  - resource "aws_iam_role_policy" "lambda" {
+      - id          = "tf-test-scheduler-role:tf-test-scheduler-policy" -> null
+      - name        = "tf-test-scheduler-policy" -> null
+      - policy      = jsonencode(
+            {
+              - Statement = [
+                  - {
+                      - Action   = [
+                          - "logs:CreateLogGroup",
+                          - "logs:CreateLogStream",
+                          - "logs:PutLogEvents",
+                        ]
+                      - Effect   = "Allow"
+                      - Resource = "arn:aws:logs:*:*:*"
+                    },
+                  - {
+                      - Action   = [
+                          - "ec2:DescribeInstances",
+                          - "ec2:StartInstances",
+                          - "ec2:StopInstances",
+                        ]
+                      - Effect   = "Allow"
+                      - Resource = "*"
+                    },
+                  - {
+                      - Action   = [
+                          - "rds:DescribeDBInstances",
+                          - "rds:ListTagsForResource",
+                          - "rds:StartDBInstance",
+                          - "rds:StopDBInstance",
+                        ]
+                      - Effect   = "Allow"
+                      - Resource = "*"
+                    },
+                ]
+              - Version   = "2012-10-17"
+            }
+        ) -> null
+      - role        = "tf-test-scheduler-role" -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.lambda.aws_lambda_function.start will be destroyed
+  - resource "aws_lambda_function" "start" {
+      - architectures                  = [
+          - "x86_64",
+        ] -> null
+      - arn                            = "arn:aws:lambda:ap-south-1:118402680584:function:tf-test-scheduler-start" -> null
+      - code_sha256                    = "awsRhRKza5IUXIKxpCoF2cD6HHvZ+bkTZ+WI8UFAXmc=" -> null
+      - filename                       = "../modules/lambda/scheduler.zip" -> null
+      - function_name                  = "tf-test-scheduler-start" -> null
+      - handler                        = "scheduler.lambda_handler" -> null
+      - id                             = "tf-test-scheduler-start" -> null
+      - invoke_arn                     = "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:118402680584:function:tf-test-scheduler-start/invocations" -> null
+      - last_modified                  = "2026-04-29T07:36:38.030+0000" -> null
+      - layers                         = [] -> null
+      - memory_size                    = 128 -> null
+      - package_type                   = "Zip" -> null
+      - publish                        = false -> null
+      - qualified_arn                  = "arn:aws:lambda:ap-south-1:118402680584:function:tf-test-scheduler-start:$LATEST" -> null
+      - qualified_invoke_arn           = "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:118402680584:function:tf-test-scheduler-start:$LATEST/invocations" -> null
+      - reserved_concurrent_executions = -1 -> null
+      - role                           = "arn:aws:iam::118402680584:role/tf-test-scheduler-role" -> null
+      - runtime                        = "python3.12" -> null
+      - skip_destroy                   = false -> null
+      - source_code_hash               = "awsRhRKza5IUXIKxpCoF2cD6HHvZ+bkTZ+WI8UFAXmc=" -> null
+      - source_code_size               = 1029 -> null
+      - tags                           = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                       = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - timeout                        = 60 -> null
+      - version                        = "$LATEST" -> null
+        # (6 unchanged attributes hidden)
+
+      - environment {
+          - variables = {
+              - "ACTION"    = "start"
+              - "TAG_KEY"   = "AutoSchedule"
+              - "TAG_VALUE" = "true"
+            } -> null
+        }
+
+      - ephemeral_storage {
+          - size = 512 -> null
+        }
+
+      - logging_config {
+          - log_format            = "Text" -> null
+          - log_group             = "/aws/lambda/tf-test-scheduler-start" -> null
+            # (2 unchanged attributes hidden)
+        }
+
+      - tracing_config {
+          - mode = "PassThrough" -> null
+        }
+    }
+
+  # module.lambda.aws_lambda_function.stop will be destroyed
+  - resource "aws_lambda_function" "stop" {
+      - architectures                  = [
+          - "x86_64",
+        ] -> null
+      - arn                            = "arn:aws:lambda:ap-south-1:118402680584:function:tf-test-scheduler-stop" -> null
+      - code_sha256                    = "awsRhRKza5IUXIKxpCoF2cD6HHvZ+bkTZ+WI8UFAXmc=" -> null
+      - filename                       = "../modules/lambda/scheduler.zip" -> null
+      - function_name                  = "tf-test-scheduler-stop" -> null
+      - handler                        = "scheduler.lambda_handler" -> null
+      - id                             = "tf-test-scheduler-stop" -> null
+      - invoke_arn                     = "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:118402680584:function:tf-test-scheduler-stop/invocations" -> null
+      - last_modified                  = "2026-04-29T07:36:43.853+0000" -> null
+      - layers                         = [] -> null
+      - memory_size                    = 128 -> null
+      - package_type                   = "Zip" -> null
+      - publish                        = false -> null
+      - qualified_arn                  = "arn:aws:lambda:ap-south-1:118402680584:function:tf-test-scheduler-stop:$LATEST" -> null
+      - qualified_invoke_arn           = "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:118402680584:function:tf-test-scheduler-stop:$LATEST/invocations" -> null
+      - reserved_concurrent_executions = -1 -> null
+      - role                           = "arn:aws:iam::118402680584:role/tf-test-scheduler-role" -> null
+      - runtime                        = "python3.12" -> null
+      - skip_destroy                   = false -> null
+      - source_code_hash               = "awsRhRKza5IUXIKxpCoF2cD6HHvZ+bkTZ+WI8UFAXmc=" -> null
+      - source_code_size               = 1029 -> null
+      - tags                           = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                       = {
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - timeout                        = 60 -> null
+      - version                        = "$LATEST" -> null
+        # (6 unchanged attributes hidden)
+
+      - environment {
+          - variables = {
+              - "ACTION"    = "stop"
+              - "TAG_KEY"   = "AutoSchedule"
+              - "TAG_VALUE" = "true"
+            } -> null
+        }
+
+      - ephemeral_storage {
+          - size = 512 -> null
+        }
+
+      - logging_config {
+          - log_format            = "Text" -> null
+          - log_group             = "/aws/lambda/tf-test-scheduler-stop" -> null
+            # (2 unchanged attributes hidden)
+        }
+
+      - tracing_config {
+          - mode = "PassThrough" -> null
+        }
+    }
+
+  # module.lambda.aws_lambda_permission.start will be destroyed
+  - resource "aws_lambda_permission" "start" {
+      - action              = "lambda:InvokeFunction" -> null
+      - function_name       = "tf-test-scheduler-start" -> null
+      - id                  = "AllowEventBridgeStart" -> null
+      - principal           = "events.amazonaws.com" -> null
+      - source_arn          = "arn:aws:events:ap-south-1:118402680584:rule/tf-test-start-rule" -> null
+      - statement_id        = "AllowEventBridgeStart" -> null
+        # (2 unchanged attributes hidden)
+    }
+
+  # module.lambda.aws_lambda_permission.stop will be destroyed
+  - resource "aws_lambda_permission" "stop" {
+      - action              = "lambda:InvokeFunction" -> null
+      - function_name       = "tf-test-scheduler-stop" -> null
+      - id                  = "AllowEventBridgeStop" -> null
+      - principal           = "events.amazonaws.com" -> null
+      - source_arn          = "arn:aws:events:ap-south-1:118402680584:rule/tf-test-stop-rule" -> null
+      - statement_id        = "AllowEventBridgeStop" -> null
+        # (2 unchanged attributes hidden)
+    }
+
+  # module.rds.aws_db_instance.this will be destroyed
+  - resource "aws_db_instance" "this" {
+      - address                               = "tf-test-mysql.c9kseaey40u1.ap-south-1.rds.amazonaws.com" -> null
+      - allocated_storage                     = 20 -> null
+      - apply_immediately                     = false -> null
+      - arn                                   = "arn:aws:rds:ap-south-1:118402680584:db:tf-test-mysql" -> null
+      - auto_minor_version_upgrade            = true -> null
+      - availability_zone                     = "ap-south-1b" -> null
+      - backup_retention_period               = 7 -> null
+      - backup_target                         = "region" -> null
+      - backup_window                         = "03:00-04:00" -> null
+      - ca_cert_identifier                    = "rds-ca-rsa2048-g1" -> null
+      - copy_tags_to_snapshot                 = false -> null
+      - customer_owned_ip_enabled             = false -> null
+      - database_insights_mode                = "standard" -> null
+      - db_name                               = "appdb" -> null
+      - db_subnet_group_name                  = "tf-test-db-subnet-group" -> null
+      - dedicated_log_volume                  = false -> null
+      - delete_automated_backups              = true -> null
+      - deletion_protection                   = false -> null
+      - domain_dns_ips                        = [] -> null
+      - enabled_cloudwatch_logs_exports       = [] -> null
+      - endpoint                              = "tf-test-mysql.c9kseaey40u1.ap-south-1.rds.amazonaws.com:3306" -> null
+      - engine                                = "mysql" -> null
+      - engine_lifecycle_support              = "open-source-rds-extended-support" -> null
+      - engine_version                        = "8.0" -> null
+      - engine_version_actual                 = "8.0.45" -> null
+      - hosted_zone_id                        = "Z2VFMSZA74J7XZ" -> null
+      - iam_database_authentication_enabled   = false -> null
+      - id                                    = "db-XF4C2L4RUZNWYRXZFBYVO2QCCY" -> null
+      - identifier                            = "tf-test-mysql" -> null
+      - instance_class                        = "db.t3.micro" -> null
+      - iops                                  = 0 -> null
+      - kms_key_id                            = "arn:aws:kms:ap-south-1:118402680584:key/110ad89e-e170-4765-a88e-7ca1ef9c07a6" -> null
+      - latest_restorable_time                = "2026-04-29T10:50:47Z" -> null
+      - license_model                         = "general-public-license" -> null
+      - listener_endpoint                     = [] -> null
+      - maintenance_window                    = "mon:04:00-mon:05:00" -> null
+      - master_user_secret                    = [] -> null
+      - max_allocated_storage                 = 0 -> null
+      - monitoring_interval                   = 0 -> null
+      - multi_az                              = false -> null
+      - network_type                          = "IPV4" -> null
+      - option_group_name                     = "default:mysql-8-0" -> null
+      - parameter_group_name                  = "default.mysql8.0" -> null
+      - password                              = (sensitive value) -> null
+      - password_wo                           = (write-only attribute) -> null
+      - performance_insights_enabled          = false -> null
+      - performance_insights_retention_period = 0 -> null
+      - port                                  = 3306 -> null
+      - publicly_accessible                   = false -> null
+      - replicas                              = [] -> null
+      - resource_id                           = "db-XF4C2L4RUZNWYRXZFBYVO2QCCY" -> null
+      - skip_final_snapshot                   = true -> null
+      - status                                = "stopped" -> null
+      - storage_encrypted                     = true -> null
+      - storage_throughput                    = 0 -> null
+      - storage_type                          = "gp2" -> null
+      - tags                                  = {
+          - "AutoSchedule" = "true"
+          - "Name"         = "tf-test-mysql"
+          - "environment"  = "dev"
+          - "managed_by"   = "terraform"
+          - "owner"        = "krishal"
+          - "project"      = "terraform-practical-test"
+        } -> null
+      - tags_all                              = {
+          - "AutoSchedule" = "true"
+          - "Name"         = "tf-test-mysql"
+          - "environment"  = "dev"
+          - "managed_by"   = "terraform"
+          - "owner"        = "krishal"
+          - "project"      = "terraform-practical-test"
+        } -> null
+      - username                              = "admin" -> null
+      - vpc_security_group_ids                = [
+          - "sg-02756cb28ead69a46",
+        ] -> null
+        # (14 unchanged attributes hidden)
+    }
+
+  # module.rds.aws_db_subnet_group.this will be destroyed
+  - resource "aws_db_subnet_group" "this" {
+      - arn                     = "arn:aws:rds:ap-south-1:118402680584:subgrp:tf-test-db-subnet-group" -> null
+      - description             = "Managed by Terraform" -> null
+      - id                      = "tf-test-db-subnet-group" -> null
+      - name                    = "tf-test-db-subnet-group" -> null
+      - subnet_ids              = [
+          - "subnet-049d4ce74622a7bae",
+          - "subnet-088fd295fa7c7d6d3",
+        ] -> null
+      - supported_network_types = [
+          - "IPV4",
+        ] -> null
+      - tags                    = {
+          - "Name"        = "tf-test-db-subnet-group"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                = {
+          - "Name"        = "tf-test-db-subnet-group"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - vpc_id                  = "vpc-0defbe83925860ca9" -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.rds.aws_security_group.rds will be destroyed
+  - resource "aws_security_group" "rds" {
+      - arn                    = "arn:aws:ec2:ap-south-1:118402680584:security-group/sg-02756cb28ead69a46" -> null
+      - description            = "Allow MySQL from app SG only" -> null
+      - egress                 = [
+          - {
+              - cidr_blocks      = [
+                  - "0.0.0.0/0",
+                ]
+              - from_port        = 0
+              - ipv6_cidr_blocks = []
+              - prefix_list_ids  = []
+              - protocol         = "-1"
+              - security_groups  = []
+              - self             = false
+              - to_port          = 0
+                # (1 unchanged attribute hidden)
+            },
+        ] -> null
+      - id                     = "sg-02756cb28ead69a46" -> null
+      - ingress                = [
+          - {
+              - cidr_blocks      = []
+              - description      = "MySQL from app tier"
+              - from_port        = 3306
+              - ipv6_cidr_blocks = []
+              - prefix_list_ids  = []
+              - protocol         = "tcp"
+              - security_groups  = [
+                  - "sg-02745a6c8dba62de4",
+                ]
+              - self             = false
+              - to_port          = 3306
+            },
+        ] -> null
+      - name                   = "tf-test-rds-sg" -> null
+      - owner_id               = "118402680584" -> null
+      - revoke_rules_on_delete = false -> null
+      - tags                   = {
+          - "Name"        = "tf-test-rds-sg"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all               = {
+          - "Name"        = "tf-test-rds-sg"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - vpc_id                 = "vpc-0defbe83925860ca9" -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.vpc.aws_eip.nat will be destroyed
+  - resource "aws_eip" "nat" {
+      - allocation_id            = "eipalloc-0a34d995f793332f8" -> null
+      - arn                      = "arn:aws:ec2:ap-south-1:118402680584:elastic-ip/eipalloc-0a34d995f793332f8" -> null
+      - association_id           = "eipassoc-0f15591406124ec80" -> null
+      - domain                   = "vpc" -> null
+      - id                       = "eipalloc-0a34d995f793332f8" -> null
+      - network_border_group     = "ap-south-1" -> null
+      - network_interface        = "eni-0d2ba9b2e704eb01b" -> null
+      - private_dns              = "ip-10-0-1-152.ap-south-1.compute.internal" -> null
+      - private_ip               = "10.0.1.152" -> null
+      - public_dns               = "ec2-3-111-205-186.ap-south-1.compute.amazonaws.com" -> null
+      - public_ip                = "3.111.205.186" -> null
+      - public_ipv4_pool         = "amazon" -> null
+      - tags                     = {
+          - "Name"        = "tf-test-nat-eip"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                 = {
+          - "Name"        = "tf-test-nat-eip"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - vpc                      = true -> null
+        # (5 unchanged attributes hidden)
+    }
+
+  # module.vpc.aws_internet_gateway.this will be destroyed
+  - resource "aws_internet_gateway" "this" {
+      - arn      = "arn:aws:ec2:ap-south-1:118402680584:internet-gateway/igw-093f7caf968ab9717" -> null
+      - id       = "igw-093f7caf968ab9717" -> null
+      - owner_id = "118402680584" -> null
+      - tags     = {
+          - "Name"        = "tf-test-igw"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all = {
+          - "Name"        = "tf-test-igw"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - vpc_id   = "vpc-0defbe83925860ca9" -> null
+    }
+
+  # module.vpc.aws_nat_gateway.this will be destroyed
+  - resource "aws_nat_gateway" "this" {
+      - allocation_id                      = "eipalloc-0a34d995f793332f8" -> null
+      - association_id                     = "eipassoc-0f15591406124ec80" -> null
+      - connectivity_type                  = "public" -> null
+      - id                                 = "nat-042ffacc77700f5aa" -> null
+      - network_interface_id               = "eni-0d2ba9b2e704eb01b" -> null
+      - private_ip                         = "10.0.1.152" -> null
+      - public_ip                          = "3.111.205.186" -> null
+      - secondary_allocation_ids           = [] -> null
+      - secondary_private_ip_address_count = 0 -> null
+      - secondary_private_ip_addresses     = [] -> null
+      - subnet_id                          = "subnet-00991ed3b9c52c581" -> null
+      - tags                               = {
+          - "Name"        = "tf-test-nat"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                           = {
+          - "Name"        = "tf-test-nat"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+    }
+
+  # module.vpc.aws_route_table.private will be destroyed
+  - resource "aws_route_table" "private" {
+      - arn              = "arn:aws:ec2:ap-south-1:118402680584:route-table/rtb-04a2521c85c50cffe" -> null
+      - id               = "rtb-04a2521c85c50cffe" -> null
+      - owner_id         = "118402680584" -> null
+      - propagating_vgws = [] -> null
+      - route            = [
+          - {
+              - cidr_block                 = "0.0.0.0/0"
+              - nat_gateway_id             = "nat-042ffacc77700f5aa"
+                # (11 unchanged attributes hidden)
+            },
+        ] -> null
+      - tags             = {
+          - "Name"        = "tf-test-private-rt"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all         = {
+          - "Name"        = "tf-test-private-rt"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - vpc_id           = "vpc-0defbe83925860ca9" -> null
+    }
+
+  # module.vpc.aws_route_table.public will be destroyed
+  - resource "aws_route_table" "public" {
+      - arn              = "arn:aws:ec2:ap-south-1:118402680584:route-table/rtb-0654706d28d4bea95" -> null
+      - id               = "rtb-0654706d28d4bea95" -> null
+      - owner_id         = "118402680584" -> null
+      - propagating_vgws = [] -> null
+      - route            = [
+          - {
+              - cidr_block                 = "0.0.0.0/0"
+              - gateway_id                 = "igw-093f7caf968ab9717"
+                # (11 unchanged attributes hidden)
+            },
+        ] -> null
+      - tags             = {
+          - "Name"        = "tf-test-public-rt"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all         = {
+          - "Name"        = "tf-test-public-rt"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - vpc_id           = "vpc-0defbe83925860ca9" -> null
+    }
+
+  # module.vpc.aws_route_table_association.private[0] will be destroyed
+  - resource "aws_route_table_association" "private" {
+      - id             = "rtbassoc-07e38cd40b1850fe4" -> null
+      - route_table_id = "rtb-04a2521c85c50cffe" -> null
+      - subnet_id      = "subnet-049d4ce74622a7bae" -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.vpc.aws_route_table_association.private[1] will be destroyed
+  - resource "aws_route_table_association" "private" {
+      - id             = "rtbassoc-01f6e3ebb1ab1d4c1" -> null
+      - route_table_id = "rtb-04a2521c85c50cffe" -> null
+      - subnet_id      = "subnet-088fd295fa7c7d6d3" -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.vpc.aws_route_table_association.public[0] will be destroyed
+  - resource "aws_route_table_association" "public" {
+      - id             = "rtbassoc-008577ba9e6209631" -> null
+      - route_table_id = "rtb-0654706d28d4bea95" -> null
+      - subnet_id      = "subnet-00991ed3b9c52c581" -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.vpc.aws_route_table_association.public[1] will be destroyed
+  - resource "aws_route_table_association" "public" {
+      - id             = "rtbassoc-008379c972b18a0db" -> null
+      - route_table_id = "rtb-0654706d28d4bea95" -> null
+      - subnet_id      = "subnet-03f4d3c03e40e5044" -> null
+        # (1 unchanged attribute hidden)
+    }
+
+  # module.vpc.aws_subnet.private[0] will be destroyed
+  - resource "aws_subnet" "private" {
+      - arn                                            = "arn:aws:ec2:ap-south-1:118402680584:subnet/subnet-049d4ce74622a7bae" -> null
+      - assign_ipv6_address_on_creation                = false -> null
+      - availability_zone                              = "ap-south-1a" -> null
+      - availability_zone_id                           = "aps1-az1" -> null
+      - cidr_block                                     = "10.0.3.0/24" -> null
+      - enable_dns64                                   = false -> null
+      - enable_lni_at_device_index                     = 0 -> null
+      - enable_resource_name_dns_a_record_on_launch    = false -> null
+      - enable_resource_name_dns_aaaa_record_on_launch = false -> null
+      - id                                             = "subnet-049d4ce74622a7bae" -> null
+      - ipv6_native                                    = false -> null
+      - map_customer_owned_ip_on_launch                = false -> null
+      - map_public_ip_on_launch                        = false -> null
+      - owner_id                                       = "118402680584" -> null
+      - private_dns_hostname_type_on_launch            = "ip-name" -> null
+      - tags                                           = {
+          - "Name"        = "tf-test-private-ap-south-1a"
+          - "Tier"        = "private"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                                       = {
+          - "Name"        = "tf-test-private-ap-south-1a"
+          - "Tier"        = "private"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - vpc_id                                         = "vpc-0defbe83925860ca9" -> null
+        # (4 unchanged attributes hidden)
+    }
+
+  # module.vpc.aws_subnet.private[1] will be destroyed
+  - resource "aws_subnet" "private" {
+      - arn                                            = "arn:aws:ec2:ap-south-1:118402680584:subnet/subnet-088fd295fa7c7d6d3" -> null
+      - assign_ipv6_address_on_creation                = false -> null
+      - availability_zone                              = "ap-south-1b" -> null
+      - availability_zone_id                           = "aps1-az3" -> null
+      - cidr_block                                     = "10.0.4.0/24" -> null
+      - enable_dns64                                   = false -> null
+      - enable_lni_at_device_index                     = 0 -> null
+      - enable_resource_name_dns_a_record_on_launch    = false -> null
+      - enable_resource_name_dns_aaaa_record_on_launch = false -> null
+      - id                                             = "subnet-088fd295fa7c7d6d3" -> null
+      - ipv6_native                                    = false -> null
+      - map_customer_owned_ip_on_launch                = false -> null
+      - map_public_ip_on_launch                        = false -> null
+      - owner_id                                       = "118402680584" -> null
+      - private_dns_hostname_type_on_launch            = "ip-name" -> null
+      - tags                                           = {
+          - "Name"        = "tf-test-private-ap-south-1b"
+          - "Tier"        = "private"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                                       = {
+          - "Name"        = "tf-test-private-ap-south-1b"
+          - "Tier"        = "private"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - vpc_id                                         = "vpc-0defbe83925860ca9" -> null
+        # (4 unchanged attributes hidden)
+    }
+
+  # module.vpc.aws_subnet.public[0] will be destroyed
+  - resource "aws_subnet" "public" {
+      - arn                                            = "arn:aws:ec2:ap-south-1:118402680584:subnet/subnet-00991ed3b9c52c581" -> null
+      - assign_ipv6_address_on_creation                = false -> null
+      - availability_zone                              = "ap-south-1a" -> null
+      - availability_zone_id                           = "aps1-az1" -> null
+      - cidr_block                                     = "10.0.1.0/24" -> null
+      - enable_dns64                                   = false -> null
+      - enable_lni_at_device_index                     = 0 -> null
+      - enable_resource_name_dns_a_record_on_launch    = false -> null
+      - enable_resource_name_dns_aaaa_record_on_launch = false -> null
+      - id                                             = "subnet-00991ed3b9c52c581" -> null
+      - ipv6_native                                    = false -> null
+      - map_customer_owned_ip_on_launch                = false -> null
+      - map_public_ip_on_launch                        = true -> null
+      - owner_id                                       = "118402680584" -> null
+      - private_dns_hostname_type_on_launch            = "ip-name" -> null
+      - tags                                           = {
+          - "Name"        = "tf-test-public-ap-south-1a"
+          - "Tier"        = "public"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                                       = {
+          - "Name"        = "tf-test-public-ap-south-1a"
+          - "Tier"        = "public"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - vpc_id                                         = "vpc-0defbe83925860ca9" -> null
+        # (4 unchanged attributes hidden)
+    }
+
+  # module.vpc.aws_subnet.public[1] will be destroyed
+  - resource "aws_subnet" "public" {
+      - arn                                            = "arn:aws:ec2:ap-south-1:118402680584:subnet/subnet-03f4d3c03e40e5044" -> null
+      - assign_ipv6_address_on_creation                = false -> null
+      - availability_zone                              = "ap-south-1b" -> null
+      - availability_zone_id                           = "aps1-az3" -> null
+      - cidr_block                                     = "10.0.2.0/24" -> null
+      - enable_dns64                                   = false -> null
+      - enable_lni_at_device_index                     = 0 -> null
+      - enable_resource_name_dns_a_record_on_launch    = false -> null
+      - enable_resource_name_dns_aaaa_record_on_launch = false -> null
+      - id                                             = "subnet-03f4d3c03e40e5044" -> null
+      - ipv6_native                                    = false -> null
+      - map_customer_owned_ip_on_launch                = false -> null
+      - map_public_ip_on_launch                        = true -> null
+      - owner_id                                       = "118402680584" -> null
+      - private_dns_hostname_type_on_launch            = "ip-name" -> null
+      - tags                                           = {
+          - "Name"        = "tf-test-public-ap-south-1b"
+          - "Tier"        = "public"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                                       = {
+          - "Name"        = "tf-test-public-ap-south-1b"
+          - "Tier"        = "public"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - vpc_id                                         = "vpc-0defbe83925860ca9" -> null
+        # (4 unchanged attributes hidden)
+    }
+
+  # module.vpc.aws_vpc.this will be destroyed
+  - resource "aws_vpc" "this" {
+      - arn                                  = "arn:aws:ec2:ap-south-1:118402680584:vpc/vpc-0defbe83925860ca9" -> null
+      - assign_generated_ipv6_cidr_block     = false -> null
+      - cidr_block                           = "10.0.0.0/16" -> null
+      - default_network_acl_id               = "acl-0515ca262dec18c2d" -> null
+      - default_route_table_id               = "rtb-0ff723b3bdcad7826" -> null
+      - default_security_group_id            = "sg-068c482df4dd733da" -> null
+      - dhcp_options_id                      = "dopt-03a197a520c0d7be6" -> null
+      - enable_dns_hostnames                 = true -> null
+      - enable_dns_support                   = true -> null
+      - enable_network_address_usage_metrics = false -> null
+      - id                                   = "vpc-0defbe83925860ca9" -> null
+      - instance_tenancy                     = "default" -> null
+      - ipv6_netmask_length                  = 0 -> null
+      - main_route_table_id                  = "rtb-0ff723b3bdcad7826" -> null
+      - owner_id                             = "118402680584" -> null
+      - tags                                 = {
+          - "Name"        = "terraform-main-vpc"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+      - tags_all                             = {
+          - "Name"        = "terraform-main-vpc"
+          - "environment" = "dev"
+          - "managed_by"  = "terraform"
+          - "owner"       = "krishal"
+          - "project"     = "terraform-practical-test"
+        } -> null
+        # (4 unchanged attributes hidden)
+    }
+
+Plan: 0 to add, 0 to change, 62 to destroy.
+
+Changes to Outputs:
+  - alb_dns_name              = "tf-test-alb-1799861251.ap-south-1.elb.amazonaws.com" -> null
+  - asg_name                  = "tf-test-asg-" -> null
+  - cloudwatch_dashboard_name = "tf-test-dashboard" -> null
+  - ec2_instance_id           = "i-03364a26213a621d0" -> null
+  - ec2_public_ip             = "65.0.93.53" -> null
+  - github_connection_arn     = "arn:aws:codestar-connections:ap-south-1:118402680584:connection/d8da454a-692a-4487-b94f-f4099623daeb" -> null
+  - lambda_start_function     = "tf-test-scheduler-start" -> null
+  - lambda_stop_function      = "tf-test-scheduler-stop" -> null
+  - pipeline_name             = "tf-test-pipeline" -> null
+  - private_subnet_ids        = [
+      - "subnet-049d4ce74622a7bae",
+      - "subnet-088fd295fa7c7d6d3",
+    ] -> null
+  - public_subnet_ids         = [
+      - "subnet-00991ed3b9c52c581",
+      - "subnet-03f4d3c03e40e5044",
+    ] -> null
+  - rds_address               = (sensitive value) -> null
+  - rds_endpoint              = (sensitive value) -> null
+  - tf_state_bucket           = "tf-state-krishal-ap-south-1" -> null
+  - vpc_id                    = "vpc-0defbe83925860ca9" -> null
+module.cicd.aws_s3_bucket_public_access_block.artifacts: Destroying... [id=tf-test-pipeline-artifacts-118402680584]
+module.lambda.aws_lambda_permission.stop: Destroying... [id=AllowEventBridgeStop]
+module.lambda.aws_iam_role_policy.lambda: Destroying... [id=tf-test-scheduler-role:tf-test-scheduler-policy]
+module.lambda.aws_cloudwatch_log_group.start: Destroying... [id=/aws/lambda/tf-test-scheduler-start]
+module.ec2.aws_iam_role_policy_attachment.ec2_cloudwatch: Destroying... [id=tf-test-ec2-role-20260429073621979000000002]
+module.cicd.aws_iam_role_policy.codebuild: Destroying... [id=tf-test-codebuild-role:tf-test-codebuild-policy]
+module.lambda.aws_lambda_permission.start: Destroying... [id=AllowEventBridgeStart]
+module.asg.aws_cloudwatch_metric_alarm.cpu_low: Destroying... [id=tf-test-cpu-low]
+module.alb.aws_lb_listener.http: Destroying... [id=arn:aws:elasticloadbalancing:ap-south-1:118402680584:listener/app/tf-test-alb/71c91f3e74837784/74deddeb193cfb79]
+module.cicd.aws_codepipeline.this: Destroying... [id=tf-test-pipeline]
+module.lambda.aws_cloudwatch_log_group.start: Destruction complete after 0s
+module.lambda.aws_lambda_permission.start: Destruction complete after 0s
+module.lambda.aws_lambda_permission.stop: Destruction complete after 0s
+module.ec2.aws_iam_role_policy_attachment.ec2_codedeploy: Destroying... [id=tf-test-ec2-role-20260429073621978600000001]
+module.vpc.aws_route_table_association.public[1]: Destroying... [id=rtbassoc-008379c972b18a0db]
+module.lambda.aws_cloudwatch_event_target.start: Destroying... [id=tf-test-start-rule-StartScheduler]
+module.alb.aws_lb_listener.http: Destruction complete after 0s
+module.ec2.aws_instance.this: Destroying... [id=i-03364a26213a621d0]
+module.asg.aws_cloudwatch_metric_alarm.cpu_low: Destruction complete after 0s
+module.asg.aws_cloudwatch_metric_alarm.cpu_high: Destroying... [id=tf-test-cpu-high]
+module.cicd.aws_codepipeline.this: Destruction complete after 0s
+module.ec2.aws_iam_role_policy_attachment.ec2_ssm: Destroying... [id=tf-test-ec2-role-20260429073622036100000003]
+module.lambda.aws_cloudwatch_event_target.start: Destruction complete after 0s
+module.cicd.aws_s3_bucket_server_side_encryption_configuration.artifacts: Destroying... [id=tf-test-pipeline-artifacts-118402680584]
+module.asg.aws_cloudwatch_metric_alarm.cpu_high: Destruction complete after 0s
+module.cicd.aws_iam_role_policy_attachment.codedeploy: Destroying... [id=tf-test-codedeploy-role-20260429073622241100000004]
+module.vpc.aws_route_table_association.public[1]: Destruction complete after 0s
+module.cicd.aws_s3_bucket_versioning.artifacts: Destroying... [id=tf-test-pipeline-artifacts-118402680584]
+module.cicd.aws_s3_bucket_public_access_block.artifacts: Destruction complete after 0s
+module.vpc.aws_route_table_association.private[1]: Destroying... [id=rtbassoc-01f6e3ebb1ab1d4c1]
+module.vpc.aws_route_table_association.private[1]: Destruction complete after 1s
+module.vpc.aws_route_table_association.private[0]: Destroying... [id=rtbassoc-07e38cd40b1850fe4]
+module.cicd.aws_s3_bucket_server_side_encryption_configuration.artifacts: Destruction complete after 1s
+module.vpc.aws_route_table_association.public[0]: Destroying... [id=rtbassoc-008577ba9e6209631]
+module.cicd.aws_s3_bucket_versioning.artifacts: Destruction complete after 1s
+module.lambda.aws_cloudwatch_event_target.stop: Destroying... [id=tf-test-stop-rule-StopScheduler]
+module.lambda.aws_cloudwatch_event_target.stop: Destruction complete after 0s
+module.lambda.aws_cloudwatch_log_group.stop: Destroying... [id=/aws/lambda/tf-test-scheduler-stop]
+module.vpc.aws_route_table_association.private[0]: Destruction complete after 0s
+module.cicd.aws_iam_role_policy.codepipeline: Destroying... [id=tf-test-codepipeline-role:tf-test-codepipeline-policy]
+module.lambda.aws_cloudwatch_log_group.stop: Destruction complete after 0s
+module.cloudwatch.aws_cloudwatch_dashboard.this: Destroying... [id=tf-test-dashboard]
+module.vpc.aws_route_table_association.public[0]: Destruction complete after 0s
+module.asg.aws_autoscaling_policy.scale_in: Destroying... [id=tf-test-scale-in]
+module.cicd.aws_iam_role_policy.codebuild: Destruction complete after 1s
+module.cicd.aws_codedeploy_deployment_group.this: Destroying... [id=29372d08-93b4-4263-aa6f-60f4832ed056]
+module.ec2.aws_iam_role_policy_attachment.ec2_cloudwatch: Destruction complete after 1s
+module.lambda.aws_lambda_function.start: Destroying... [id=tf-test-scheduler-start]
+module.lambda.aws_iam_role_policy.lambda: Destruction complete after 1s
+module.lambda.aws_cloudwatch_event_rule.start: Destroying... [id=tf-test-start-rule]
+module.lambda.aws_cloudwatch_event_rule.start: Destruction complete after 0s
+module.asg.aws_autoscaling_policy.scale_out: Destroying... [id=tf-test-scale-out]
+module.asg.aws_autoscaling_policy.scale_in: Destruction complete after 0s
+module.lambda.aws_cloudwatch_event_rule.stop: Destroying... [id=tf-test-stop-rule]
+module.ec2.aws_iam_role_policy_attachment.ec2_codedeploy: Destruction complete after 1s
+module.vpc.aws_route_table.private: Destroying... [id=rtb-04a2521c85c50cffe]
+module.lambda.aws_cloudwatch_event_rule.stop: Destruction complete after 0s
+module.lambda.aws_lambda_function.stop: Destroying... [id=tf-test-scheduler-stop]
+module.lambda.aws_lambda_function.start: Destruction complete after 0s
+module.vpc.aws_route_table.public: Destroying... [id=rtb-0654706d28d4bea95]
+module.cicd.aws_codedeploy_deployment_group.this: Destruction complete after 0s
+module.cicd.aws_codedeploy_app.this: Destroying... [id=2cdacf50-dd29-4208-ade7-3a23ad1eee82:tf-test-app]
+module.cicd.aws_iam_role_policy_attachment.codedeploy: Destruction complete after 2s
+module.cicd.aws_iam_role.codedeploy: Destroying... [id=tf-test-codedeploy-role]
+module.ec2.aws_iam_role_policy_attachment.ec2_ssm: Destruction complete after 2s
+module.lambda.aws_lambda_function.stop: Destruction complete after 1s
+module.lambda.aws_iam_role.lambda: Destroying... [id=tf-test-scheduler-role]
+module.cicd.aws_iam_role_policy.codepipeline: Destruction complete after 1s
+module.cicd.aws_codedeploy_app.this: Destruction complete after 1s
+module.asg.aws_autoscaling_policy.scale_out: Destruction complete after 1s
+module.cicd.aws_codestarconnections_connection.github: Destroying... [id=arn:aws:codestar-connections:ap-south-1:118402680584:connection/d8da454a-692a-4487-b94f-f4099623daeb]
+module.cicd.aws_iam_role.codepipeline: Destroying... [id=tf-test-codepipeline-role]
+module.cicd.aws_s3_bucket.artifacts: Destroying... [id=tf-test-pipeline-artifacts-118402680584]
+module.cicd.aws_codebuild_project.this: Destroying... [id=arn:aws:codebuild:ap-south-1:118402680584:project/tf-test-build]
+module.cloudwatch.aws_cloudwatch_dashboard.this: Destruction complete after 1s
+module.asg.aws_autoscaling_group.this: Destroying... [id=tf-test-asg-]
+module.cicd.aws_codebuild_project.this: Destruction complete after 0s
+module.alb.aws_lb.this: Destroying... [id=arn:aws:elasticloadbalancing:ap-south-1:118402680584:loadbalancer/app/tf-test-alb/71c91f3e74837784]
+module.vpc.aws_route_table.private: Destruction complete after 1s
+module.rds.aws_db_instance.this: Destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY]
+module.vpc.aws_route_table.public: Destruction complete after 1s
+module.cicd.aws_iam_role.codebuild: Destroying... [id=tf-test-codebuild-role]
+module.cicd.aws_codestarconnections_connection.github: Destruction complete after 0s
+module.vpc.aws_nat_gateway.this: Destroying... [id=nat-042ffacc77700f5aa]
+module.cicd.aws_s3_bucket.artifacts: Destruction complete after 0s
+module.cicd.aws_iam_role.codedeploy: Destruction complete after 1s
+module.lambda.aws_iam_role.lambda: Destruction complete after 1s
+module.cicd.aws_iam_role.codepipeline: Destruction complete after 1s
+module.cicd.aws_iam_role.codebuild: Destruction complete after 1s
+module.ec2.aws_instance.this: Still destroying... [id=i-03364a26213a621d0, 00m10s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 00m10s elapsed]
+module.alb.aws_lb.this: Still destroying... [id=arn:aws:elasticloadbalancing:ap-south-1...ancer/app/tf-test-alb/71c91f3e74837784, 00m10s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 00m10s elapsed]
+module.vpc.aws_nat_gateway.this: Still destroying... [id=nat-042ffacc77700f5aa, 00m10s elapsed]
+module.ec2.aws_instance.this: Still destroying... [id=i-03364a26213a621d0, 00m20s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 00m20s elapsed]
+module.alb.aws_lb.this: Still destroying... [id=arn:aws:elasticloadbalancing:ap-south-1...ancer/app/tf-test-alb/71c91f3e74837784, 00m20s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 00m20s elapsed]
+module.vpc.aws_nat_gateway.this: Still destroying... [id=nat-042ffacc77700f5aa, 00m20s elapsed]
+module.alb.aws_lb.this: Destruction complete after 26s
+module.ec2.aws_instance.this: Still destroying... [id=i-03364a26213a621d0, 00m30s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 00m30s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 00m30s elapsed]
+module.vpc.aws_nat_gateway.this: Still destroying... [id=nat-042ffacc77700f5aa, 00m30s elapsed]
+module.ec2.aws_instance.this: Still destroying... [id=i-03364a26213a621d0, 00m40s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 00m40s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 00m40s elapsed]
+module.vpc.aws_nat_gateway.this: Still destroying... [id=nat-042ffacc77700f5aa, 00m40s elapsed]
+module.ec2.aws_instance.this: Still destroying... [id=i-03364a26213a621d0, 00m50s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 00m50s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 00m50s elapsed]
+module.vpc.aws_nat_gateway.this: Still destroying... [id=nat-042ffacc77700f5aa, 00m50s elapsed]
+module.ec2.aws_instance.this: Still destroying... [id=i-03364a26213a621d0, 01m00s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 01m00s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 01m00s elapsed]
+module.vpc.aws_nat_gateway.this: Still destroying... [id=nat-042ffacc77700f5aa, 01m00s elapsed]
+module.vpc.aws_nat_gateway.this: Destruction complete after 1m1s
+module.vpc.aws_eip.nat: Destroying... [id=eipalloc-0a34d995f793332f8]
+module.vpc.aws_eip.nat: Destruction complete after 1s
+module.vpc.aws_internet_gateway.this: Destroying... [id=igw-093f7caf968ab9717]
+module.ec2.aws_instance.this: Still destroying... [id=i-03364a26213a621d0, 01m10s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 01m10s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 01m10s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 00m10s elapsed]
+module.ec2.aws_instance.this: Still destroying... [id=i-03364a26213a621d0, 01m20s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 01m20s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 01m20s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 00m20s elapsed]
+module.ec2.aws_instance.this: Still destroying... [id=i-03364a26213a621d0, 01m30s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 01m30s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 01m30s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 00m30s elapsed]
+module.ec2.aws_instance.this: Still destroying... [id=i-03364a26213a621d0, 01m40s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 01m40s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 01m40s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 00m40s elapsed]
+module.ec2.aws_instance.this: Still destroying... [id=i-03364a26213a621d0, 01m50s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 01m50s elapsed]
+module.ec2.aws_instance.this: Destruction complete after 1m52s
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 01m50s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 00m50s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 02m00s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 02m00s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 01m00s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 02m10s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 02m10s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 01m10s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 02m20s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 02m20s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 01m20s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 02m30s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 02m30s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 01m30s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 02m40s elapsed]
+module.rds.aws_db_instance.this: Still destroying... [id=db-XF4C2L4RUZNWYRXZFBYVO2QCCY, 02m40s elapsed]
+module.rds.aws_db_instance.this: Destruction complete after 2m42s
+module.rds.aws_db_subnet_group.this: Destroying... [id=tf-test-db-subnet-group]
+module.rds.aws_security_group.rds: Destroying... [id=sg-02756cb28ead69a46]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 01m40s elapsed]
+module.rds.aws_db_subnet_group.this: Destruction complete after 0s
+module.vpc.aws_subnet.private[0]: Destroying... [id=subnet-049d4ce74622a7bae]
+module.vpc.aws_subnet.private[1]: Destroying... [id=subnet-088fd295fa7c7d6d3]
+module.vpc.aws_subnet.private[0]: Destruction complete after 1s
+module.vpc.aws_subnet.private[1]: Destruction complete after 1s
+module.rds.aws_security_group.rds: Destruction complete after 1s
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 02m50s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 01m50s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 03m00s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 02m00s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 03m10s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 02m10s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 03m20s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 02m20s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 03m30s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 02m30s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 03m40s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 02m40s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 03m50s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 02m50s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 04m00s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 03m00s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 04m10s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 03m10s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 04m20s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 03m20s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 04m30s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 03m30s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 04m40s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 03m40s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 04m50s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 03m50s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 05m00s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 04m00s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 05m10s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 04m10s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 05m20s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 04m20s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 05m30s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 04m30s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 05m40s elapsed]
+module.vpc.aws_internet_gateway.this: Still destroying... [id=igw-093f7caf968ab9717, 04m40s elapsed]
+module.vpc.aws_internet_gateway.this: Destruction complete after 4m45s
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 05m50s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 06m00s elapsed]
+module.asg.aws_autoscaling_group.this: Still destroying... [id=tf-test-asg-, 06m10s elapsed]
+module.asg.aws_autoscaling_group.this: Destruction complete after 6m19s
+module.vpc.aws_subnet.public[0]: Destroying... [id=subnet-00991ed3b9c52c581]
+module.vpc.aws_subnet.public[1]: Destroying... [id=subnet-03f4d3c03e40e5044]
+module.alb.aws_lb_target_group.this: Destroying... [id=arn:aws:elasticloadbalancing:ap-south-1:118402680584:targetgroup/tf-test-tg/5007a40e5153e5c7]
+module.asg.aws_launch_template.this: Destroying... [id=lt-09968d66bfd98ebf2]
+module.alb.aws_lb_target_group.this: Destruction complete after 0s
+module.asg.aws_launch_template.this: Destruction complete after 0s
+module.ec2.aws_iam_instance_profile.ec2: Destroying... [id=tf-test-ec2-profile]
+module.ec2.aws_security_group.ec2: Destroying... [id=sg-02745a6c8dba62de4]
+module.vpc.aws_subnet.public[0]: Destruction complete after 0s
+module.vpc.aws_subnet.public[1]: Destruction complete after 0s
+module.ec2.aws_security_group.ec2: Destruction complete after 1s
+module.alb.aws_security_group.alb: Destroying... [id=sg-05a193c2344673582]
+module.alb.aws_security_group.alb: Destruction complete after 0s
+module.vpc.aws_vpc.this: Destroying... [id=vpc-0defbe83925860ca9]
+module.vpc.aws_vpc.this: Destruction complete after 1s
+module.ec2.aws_iam_instance_profile.ec2: Destruction complete after 2s
+module.ec2.aws_iam_role.ec2: Destroying... [id=tf-test-ec2-role]
+module.ec2.aws_iam_role.ec2: Destruction complete after 1s
+
+Destroy complete! Resources: 62 destroyed.
