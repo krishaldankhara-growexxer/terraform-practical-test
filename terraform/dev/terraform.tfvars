@@ -1,10 +1,3 @@
-###############################################################################
-# terraform.tfvars — Non-sensitive variable values for the dev environment
-#
-# ⚠️  DO NOT commit db_password here.
-#     Set it with:  export TF_VAR_db_password='YourPassword!'
-###############################################################################
-
 region                 = "ap-south-1"
 cross_account_role_arn = "arn:aws:iam::118402680584:role/TerraformCrossAccountRole-Krishal-AWS"
 target_account_id      = "118402680584"
