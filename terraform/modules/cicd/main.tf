@@ -110,7 +110,7 @@ resource "aws_codebuild_project" "this" {
 
   source {
     type      = "CODEPIPELINE"
-    buildspec = "buildspec.yml"
+    buildspec = "terraform/dev/cicd_assets/buildspec.yml"
   }
 
   logs_config {

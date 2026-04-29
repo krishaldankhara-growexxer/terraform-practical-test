@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       python: 3.12
     commands:
-      - echo "=== Install phase: installing dependencies ==="
+      - echo "=== Install phase ==="
       - yum install -y nginx git unzip || true
 
   pre_build:
@@ -16,22 +16,19 @@ phases:
 
   build:
     commands:
-      - echo "=== Build phase: running tests/lint ==="
-      # Add your actual build commands here.
-      # For a static site, we just copy files.
+      - echo "=== Build phase ==="
       - echo "Build complete."
 
   post_build:
     commands:
-      - echo "=== Post-build phase: packaging artifact ==="
+      - echo "=== Post-build phase ==="
       - echo "Build finished on $(date)"
 
 artifacts:
+  base-directory: terraform/dev/cicd_assets
   files:
     - appspec.yml
     - scripts/**/*
-    - "**/*"
-  discard-paths: no
 
 cache:
   paths:

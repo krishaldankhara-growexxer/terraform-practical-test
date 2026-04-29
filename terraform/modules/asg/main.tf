@@ -54,7 +54,8 @@ resource "aws_launch_template" "this" {
 
 # ---------- Auto Scaling Group ----------
 resource "aws_autoscaling_group" "this" {
-  name                      = "${var.name_prefix}-asg"
+  # name                      = "${var.name_prefix}-asg"
+  name                      = "${var.name_prefix}-asg-"
   min_size                  = var.min_size
   desired_capacity          = var.desired_capacity
   max_size                  = var.max_size
@@ -89,9 +90,9 @@ resource "aws_autoscaling_group" "this" {
     }
   }
 
-  lifecycle {
-    create_before_destroy = true
-  }
+  # lifecycle {
+  #   create_before_destroy = true
+  # }
 }
 
 # ---------- Scale-Out Policy (CPU > 70%) ----------
