@@ -22,7 +22,6 @@ cat > /usr/share/nginx/html/index.html <<'HTML'
 </head>
 <body>
   <h1>${welcome_message}</h1>
-  <p>Served by ASG instance: $(hostname) - $(date -u)</p>
 </body>
 </html>
 HTML
