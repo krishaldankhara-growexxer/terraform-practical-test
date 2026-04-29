@@ -1,0 +1,35 @@
+# Terraform state files (NEVER commit these)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Sensitive variable files
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Lambda zip (auto-generated)
+modules/lambda/scheduler.zip
+
+# SSH keys
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Do NOT ignore terraform.tfvars — we want it committed (no secrets inside)
+# db_password must only be set via TF_VAR_db_password environment variable

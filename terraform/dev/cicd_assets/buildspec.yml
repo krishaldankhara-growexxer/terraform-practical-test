@@ -1,0 +1,38 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.12
+    commands:
+      - echo "=== Install phase: installing dependencies ==="
+      - yum install -y nginx git unzip || true
+
+  pre_build:
+    commands:
+      - echo "=== Pre-build phase ==="
+      - echo "Build started on $(date)"
+      - echo "Branch/Commit: $CODEBUILD_SOURCE_VERSION"
+
+  build:
+    commands:
+      - echo "=== Build phase: running tests/lint ==="
+      # Add your actual build commands here.
+      # For a static site, we just copy files.
+      - echo "Build complete."
+
+  post_build:
+    commands:
+      - echo "=== Post-build phase: packaging artifact ==="
+      - echo "Build finished on $(date)"
+
+artifacts:
+  files:
+    - appspec.yml
+    - scripts/**/*
+    - "**/*"
+  discard-paths: no
+
+cache:
+  paths:
+    - '/root/.cache/pip/**/*'
