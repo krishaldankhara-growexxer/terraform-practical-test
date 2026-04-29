@@ -5,24 +5,19 @@ phases:
     runtime-versions:
       python: 3.12
     commands:
-      - echo "=== Install phase ==="
       - yum install -y nginx git unzip || true
 
   pre_build:
     commands:
-      - echo "=== Pre-build phase ==="
-      - echo "Build started on $(date)"
-      - echo "Branch/Commit: $CODEBUILD_SOURCE_VERSION"
+      - echo "Pre-build started"
 
   build:
     commands:
-      - echo "=== Build phase ==="
-      - echo "Build complete."
+      - echo "Build complete"
 
   post_build:
     commands:
-      - echo "=== Post-build phase ==="
-      - echo "Build finished on $(date)"
+      - echo "Post-build complete"
 
 artifacts:
   base-directory: terraform/dev/cicd_assets
